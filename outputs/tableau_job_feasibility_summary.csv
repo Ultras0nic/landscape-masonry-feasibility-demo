@@ -1,0 +1,61 @@
+job_id,state,city,job_type,area_sqft,quoted_price,estimated_material_cost,estimated_labor_hours,estimated_labor_cost,estimated_equipment_cost,estimated_total_cost,estimated_margin_pct,estimated_duration_days,risk_score,risk_category,workability_status,slope_level,access_width_ft,drainage_concern,demo_required,carry_distance_ft,crew_size,target_margin_pct,actual_labor_hours,actual_total_cost,actual_margin_pct,cost_variance,margin_variance,change_order_flag
+J001,MA,Newton,Paver Patio,251,7634.1,2860.97,33.13,1391.46,370.0,4622.43,0.395,1.04,35,Needs Review,Workable,Low,3.4,No,No,62,4,0.25,32.75,4569.79,0.401,-52.64,0.006,No
+J002,MA,Boston,Paver Patio,639,19265.91,7114.96,73.48,3086.16,740.0,10941.12,0.432,3.06,22,Low Risk,Workable,Low,6.7,No,Yes,24,3,0.25,90.68,13502.52,0.299,2561.4,-0.133,No
+J003,MA,Worcester,Small Retaining Wall,250,10142.56,2981.44,55.45,2328.9,740.0,6050.34,0.403,3.47,25,Low Risk,Workable,Low,3.1,No,No,18,2,0.25,47.65,5199.11,0.487,-851.23,0.084,No
+J004,MA,Boston,Paver Patio,688,18430.87,7555.86,83.94,3525.48,740.0,11821.34,0.359,3.5,35,Needs Review,Workable,Low,4.3,No,No,63,3,0.25,87.77,12360.59,0.329,539.25,-0.03,No
+J005,RI,Warwick,Paver Patio,381,14473.18,4250.11,68.58,2606.04,510.0,7366.15,0.491,2.14,82,High Risk,Requires Site Review,High,3.6,Yes,Yes,49,4,0.25,82.11,8819.79,0.391,1453.64,-0.1,Yes
+J006,MA,Quincy,Small Retaining Wall,307,14949.07,3458.35,80.38,3375.96,555.0,7389.31,0.506,2.51,47,Needs Review,Workable,Medium,3.5,No,No,72,4,0.25,89.27,8206.72,0.451,817.41,-0.055,No
+J007,RI,Providence,Walkway,310,11102.64,3538.15,54.25,2061.5,510.0,6109.65,0.45,2.26,42,Needs Review,Workable,Medium,6.1,Yes,No,71,3,0.25,55.84,6289.08,0.434,179.43,-0.016,No
+J008,MA,Braintree,Paver Patio,641,18459.99,7330.0,89.74,3769.08,1110.0,12209.08,0.339,5.61,65,High Risk,Review Before Approval,Low,4.8,Yes,No,99,2,0.25,110.3,15006.93,0.187,2797.85,-0.152,Yes
+J009,MA,Worcester,Paver Patio,275,8145.12,3129.99,38.5,1617.0,555.0,5301.99,0.349,2.41,42,Needs Review,Workable,Medium,6.8,Yes,No,80,2,0.25,36.3,4999.67,0.386,-302.32,0.037,No
+J010,RI,Newport,Paver Patio,207,6593.31,2292.05,36.23,1376.74,510.0,4178.79,0.366,2.26,78,High Risk,Review Before Approval,High,5.3,Yes,No,138,2,0.25,44.66,5150.79,0.219,972.0,-0.147,Yes
+J011,RI,Providence,Paver Patio,635,20742.3,6886.82,112.39,4270.82,850.0,12007.64,0.421,4.68,87,High Risk,Requires Site Review,Medium,4.9,Yes,Yes,105,3,0.25,123.78,13224.94,0.362,1217.3,-0.059,Yes
+J012,MA,Quincy,Small Retaining Wall,414,17193.05,4596.72,99.36,4173.12,1295.0,10064.84,0.415,6.21,45,Needs Review,Workable,Low,3.3,No,No,63,2,0.25,101.44,10275.6,0.402,210.76,-0.013,No
+J013,MA,Framingham,Paver Patio,595,17108.49,6532.69,78.54,3298.68,740.0,10571.37,0.382,3.27,33,Needs Review,Workable,Low,4.7,No,No,107,3,0.25,77.79,10470.05,0.388,-101.32,0.006,No
+J014,MA,Weymouth,Paver Patio,366,12614.73,4047.52,54.9,2305.8,740.0,7093.32,0.438,3.43,60,Needs Review,Review Before Approval,Medium,7.7,Yes,No,105,2,0.25,49.85,6441.02,0.489,-652.3,0.051,No
+J015,MA,Worcester,Small Retaining Wall,248,10656.54,2984.65,56.36,2367.12,370.0,5721.77,0.463,1.76,22,Low Risk,Workable,Low,6.8,No,Yes,99,4,0.25,58.6,5949.26,0.442,227.49,-0.021,No
+J016,MA,Weymouth,Paver Patio,632,17174.41,7238.82,77.1,3238.2,740.0,11217.02,0.347,3.21,35,Needs Review,Workable,Low,5.4,No,No,63,3,0.25,82.81,12047.93,0.298,830.91,-0.049,No
+J017,MA,Boston,Small Retaining Wall,459,25957.94,5362.03,125.18,5257.56,1110.0,11729.59,0.548,5.22,47,Needs Review,Workable,High,9.8,No,Yes,63,3,0.25,128.75,12064.24,0.535,334.65,-0.013,No
+J018,MA,Boston,Paver Patio,456,12612.63,5193.67,60.19,2527.98,555.0,8276.65,0.344,2.51,30,Low Risk,Workable,Medium,8.0,No,No,124,3,0.25,63.89,8784.77,0.303,508.12,-0.041,No
+J019,MA,Framingham,Paver Patio,617,16542.8,7074.07,67.87,2850.54,555.0,10479.61,0.367,2.83,20,Low Risk,Workable,Low,7.5,No,No,70,3,0.25,79.85,12330.15,0.255,1850.54,-0.112,No
+J020,RI,Providence,Small Retaining Wall,277,11745.52,3207.62,71.52,2717.76,510.0,6435.38,0.452,2.23,43,Needs Review,Workable,Low,3.1,No,No,104,4,0.25,73.76,6637.1,0.435,201.72,-0.017,No
+J021,MA,Newton,Paver Patio,340,10219.78,3786.2,38.08,1599.36,555.0,5940.56,0.419,2.38,12,Low Risk,Workable,Medium,9.6,No,No,33,2,0.25,39.55,6169.97,0.396,229.41,-0.023,No
+J022,MA,Worcester,Paver Patio,565,17293.86,6513.07,64.97,2728.74,555.0,9796.81,0.434,2.03,12,Low Risk,Workable,Low,8.0,No,Yes,35,4,0.25,69.51,10480.87,0.394,684.06,-0.04,No
+J023,RI,Warwick,Paver Patio,215,6135.65,2461.19,31.61,1201.18,340.0,4002.37,0.348,1.32,42,Needs Review,Workable,Medium,8.6,No,Yes,101,3,0.25,32.65,4134.28,0.326,131.91,-0.022,No
+J024,MA,Braintree,Paver Patio,369,11094.02,4246.87,52.4,2200.8,555.0,7002.67,0.369,2.18,43,Needs Review,Workable,Low,3.3,No,No,110,3,0.25,54.5,7283.08,0.344,280.41,-0.025,No
+J025,MA,Newton,Paver Patio,529,16305.89,6141.97,77.76,3265.92,925.0,10332.89,0.366,4.86,52,Needs Review,Workable,Medium,9.8,No,Yes,129,2,0.25,66.96,8897.11,0.454,-1435.78,0.088,No
+J026,MA,Newton,Paver Patio,306,10359.9,3593.03,39.78,1670.76,555.0,5818.79,0.438,2.49,35,Needs Review,Workable,Low,4.1,Yes,No,57,2,0.25,46.23,6762.26,0.347,943.47,-0.091,No
+J027,MA,Newton,Walkway,148,4747.92,1830.16,25.35,1064.7,370.0,3264.86,0.312,1.58,37,Needs Review,Workable,Low,5.5,No,Yes,78,2,0.25,30.6,3941.02,0.17,676.16,-0.142,No
+J028,RI,Newport,Paver Patio,397,10003.95,4405.02,49.62,1885.56,340.0,6630.58,0.337,1.55,22,Low Risk,Workable,Low,6.3,No,Yes,78,4,0.25,48.75,6514.15,0.349,-116.43,0.012,No
+J029,MA,Braintree,Paver Patio,504,15899.98,5792.09,68.04,2857.68,555.0,9204.77,0.421,2.84,35,Needs Review,Workable,High,9.6,No,No,93,3,0.25,77.64,10503.36,0.339,1298.59,-0.082,No
+J030,MA,Weymouth,Walkway,180,6950.36,2200.88,35.33,1483.86,555.0,4239.74,0.39,2.21,59,Needs Review,Workable,Medium,4.4,Yes,Yes,55,2,0.25,37.83,4539.51,0.347,299.77,-0.043,No
+J031,MA,Weymouth,Walkway,172,6659.81,2023.51,32.68,1372.56,370.0,3766.07,0.435,1.02,57,Needs Review,Workable,Medium,5.0,Yes,No,84,4,0.25,30.98,3570.58,0.464,-195.49,0.029,No
+J032,RI,Providence,Paver Patio,636,20631.44,6798.79,96.67,3673.46,1190.0,11662.25,0.435,6.04,77,High Risk,Review Before Approval,Medium,3.9,Yes,No,46,2,0.25,112.07,13520.45,0.345,1858.2,-0.09,Yes
+J033,RI,Cranston,Paver Patio,452,14226.12,4960.14,70.06,2662.28,510.0,8132.42,0.428,2.92,57,Needs Review,Workable,Low,5.1,Yes,Yes,85,3,0.25,83.71,9716.93,0.317,1584.51,-0.111,No
+J034,MA,Boston,Paver Patio,546,18786.11,5938.92,76.44,3210.48,925.0,10074.4,0.464,4.78,52,Needs Review,Workable,Medium,6.9,Yes,No,66,2,0.25,84.12,11086.19,0.41,1011.79,-0.054,No
+J035,RI,Warwick,Paver Patio,394,11126.96,4283.89,49.25,1871.5,510.0,6665.39,0.401,2.05,25,Low Risk,Workable,High,7.8,No,No,16,3,0.25,53.23,7203.97,0.353,538.58,-0.048,No
+J036,MA,Braintree,Walkway,84,3209.23,1040.42,14.39,604.38,185.0,1829.8,0.43,0.45,34,Needs Review,Workable,Medium,9.0,No,Yes,80,4,0.25,18.61,2366.4,0.263,536.6,-0.167,No
+J037,MA,Worcester,Paver Patio,361,9714.0,4056.29,49.82,2092.44,740.0,6888.73,0.291,3.11,48,Needs Review,Workable,Low,6.0,Yes,No,135,2,0.25,49.09,6787.24,0.301,-101.49,0.01,No
+J038,MA,Weymouth,Walkway,269,7554.4,3148.54,36.99,1553.58,370.0,5072.12,0.329,1.54,10,Low Risk,Workable,Low,6.7,No,No,70,3,0.25,38.94,5338.92,0.293,266.8,-0.036,No
+J039,RI,Pawtucket,Paver Patio,406,11578.31,4266.57,49.53,1882.14,510.0,6658.71,0.425,2.06,25,Low Risk,Workable,Low,4.5,No,No,63,3,0.25,44.02,5918.47,0.489,-740.24,0.064,No
+J040,MA,Boston,Small Retaining Wall,391,18204.49,4564.99,108.06,4538.52,925.0,10028.51,0.449,4.5,57,Needs Review,Workable,Medium,4.9,Yes,No,69,3,0.25,122.71,11387.8,0.374,1359.29,-0.075,No
+J041,RI,Cranston,Walkway,224,8838.98,2512.68,46.76,1776.88,340.0,4629.56,0.476,1.95,69,High Risk,Review Before Approval,Medium,4.9,Yes,Yes,91,3,0.25,61.51,6090.16,0.311,1460.6,-0.165,Yes
+J042,RI,Warwick,Small Retaining Wall,361,12946.33,3797.72,65.64,2494.32,510.0,6802.04,0.475,2.73,0,Low Risk,Workable,Low,8.4,No,No,20,3,0.25,63.83,6614.05,0.489,-187.99,0.014,No
+J043,RI,Cranston,Paver Patio,284,7068.4,3007.48,34.08,1295.04,340.0,4642.52,0.343,1.06,18,Low Risk,Workable,Low,9.1,No,No,111,4,0.25,32.76,4463.09,0.369,-179.43,0.026,No
+J044,RI,Warwick,Walkway,224,7206.57,2384.6,36.4,1383.2,510.0,4277.8,0.406,2.27,35,Needs Review,Workable,Low,4.9,Yes,No,41,2,0.25,36.94,4341.26,0.398,63.46,-0.008,No
+J045,MA,Quincy,Paver Patio,297,9275.83,3382.18,44.55,1871.1,370.0,5623.28,0.394,1.86,50,Needs Review,Workable,Medium,9.8,Yes,No,121,3,0.25,52.36,6608.56,0.288,985.28,-0.106,No
+J046,RI,Warwick,Walkway,182,5147.89,1950.01,25.03,951.14,340.0,3241.15,0.37,1.04,10,Low Risk,Workable,Low,7.1,No,No,61,3,0.25,23.5,3042.47,0.409,-198.68,0.039,No
+J047,RI,Warwick,Small Retaining Wall,252,11446.69,2860.0,66.44,2524.72,510.0,5894.72,0.485,2.77,44,Needs Review,Workable,Medium,8.4,Yes,Yes,15,3,0.25,76.67,6802.07,0.406,907.35,-0.079,No
+J048,MA,Braintree,Paver Patio,362,11664.47,4205.06,52.13,2189.46,555.0,6949.52,0.404,2.17,45,Needs Review,Workable,Medium,4.3,No,No,105,3,0.25,54.87,7314.22,0.373,364.7,-0.031,No
+J049,MA,Quincy,Paver Patio,184,4867.93,2112.95,18.4,772.8,185.0,3070.75,0.369,0.77,0,Low Risk,Workable,Low,6.8,No,No,55,3,0.25,16.73,2792.36,0.426,-278.39,0.057,No
+J050,MA,Weymouth,Paver Patio,226,8524.67,2633.52,35.71,1499.82,555.0,4688.34,0.45,2.23,57,Needs Review,Workable,High,9.4,Yes,Yes,10,2,0.25,39.52,5188.36,0.391,500.02,-0.059,No
+J051,RI,Warwick,Walkway,157,4469.63,1781.56,25.91,984.58,340.0,3106.14,0.305,1.08,33,Needs Review,Workable,Low,4.8,No,No,116,3,0.25,20.49,2456.67,0.45,-649.47,0.145,No
+J052,MA,Braintree,Paver Patio,371,11217.73,4332.74,53.8,2259.6,740.0,7332.34,0.346,3.36,57,Needs Review,Workable,Low,5.3,Yes,Yes,53,2,0.25,53.32,7266.46,0.352,-65.88,0.006,No
+J053,MA,Quincy,Walkway,188,6207.46,2246.75,26.32,1105.44,370.0,3722.19,0.4,1.65,12,Low Risk,Workable,Medium,6.9,No,No,51,2,0.25,28.3,4001.51,0.355,279.32,-0.045,No
+J054,MA,Quincy,Paver Patio,494,15126.54,5811.58,76.57,3215.94,555.0,9582.52,0.367,2.39,57,Needs Review,Workable,Low,3.7,Yes,Yes,13,4,0.25,92.67,11597.5,0.233,2014.98,-0.134,No
+J055,RI,Providence,Paver Patio,422,12005.0,4511.98,56.97,2164.86,340.0,7016.84,0.416,1.78,35,Needs Review,Workable,High,9.3,No,No,88,4,0.25,55.63,6851.18,0.429,-165.66,0.013,No
+J056,MA,Braintree,Walkway,273,10396.62,3257.87,45.39,1906.38,555.0,5719.25,0.45,2.84,32,Needs Review,Workable,Low,8.4,Yes,Yes,28,2,0.25,50.77,6397.5,0.385,678.25,-0.065,No
+J057,MA,Weymouth,Walkway,117,4299.28,1418.31,19.45,816.9,185.0,2420.21,0.437,0.81,32,Needs Review,Workable,Low,6.7,Yes,Yes,19,3,0.25,24.5,3048.54,0.291,628.33,-0.146,No
+J058,MA,Quincy,Paver Patio,498,16285.58,5814.18,63.25,2656.5,370.0,8840.68,0.457,1.98,24,Low Risk,Workable,Medium,6.3,No,Yes,58,4,0.25,67.61,9449.46,0.42,608.78,-0.037,No
+J059,MA,Newton,Walkway,216,8279.95,2537.15,38.61,1621.62,370.0,4528.77,0.453,1.61,45,Needs Review,Workable,High,8.1,Yes,No,20,3,0.25,43.19,5065.77,0.388,537.0,-0.065,No
+J060,MA,Newton,Paver Patio,558,14644.67,6616.44,66.96,2812.32,555.0,9983.76,0.318,2.79,18,Low Risk,Workable,Low,7.1,No,No,113,3,0.25,61.46,9163.33,0.374,-820.43,0.056,No

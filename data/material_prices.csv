@@ -1,0 +1,13 @@
+state,material_type,unit,unit_cost
+MA,pavers,sqft,8.5
+MA,base_gravel,cubic_yard,62.0
+MA,bedding_sand,cubic_yard,54.0
+MA,edging,linear_ft,4.25
+MA,disposal,cubic_yard,48.0
+MA,equipment_day,day,185.0
+RI,pavers,sqft,8.0
+RI,base_gravel,cubic_yard,58.0
+RI,bedding_sand,cubic_yard,50.0
+RI,edging,linear_ft,4.0
+RI,disposal,cubic_yard,44.0
+RI,equipment_day,day,170.0

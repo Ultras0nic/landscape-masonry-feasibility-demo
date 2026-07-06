@@ -1,0 +1,61 @@
+job_id,state,city,job_type,area_sqft,perimeter_ft,base_depth_in,sand_depth_in,slope_level,access_width_ft,drainage_concern,demo_required,carry_distance_ft,crew_size,quoted_price,target_margin_pct
+J001,MA,Newton,Paver Patio,251,67.1,4,1,Low,3.4,No,No,62,4,7634.1,0.25
+J002,MA,Boston,Paver Patio,639,107.6,4,1,Low,6.7,No,Yes,24,3,19265.91,0.25
+J003,MA,Worcester,Small Retaining Wall,250,72.8,6,1,Low,3.1,No,No,18,2,10142.56,0.25
+J004,MA,Boston,Paver Patio,688,119.8,4,1,Low,4.3,No,No,63,3,18430.87,0.25
+J005,RI,Warwick,Paver Patio,381,90.8,6,1,High,3.6,Yes,Yes,49,4,14473.18,0.25
+J006,MA,Quincy,Small Retaining Wall,307,72.9,4,1,Medium,3.5,No,No,72,4,14949.07,0.25
+J007,RI,Providence,Walkway,310,75.9,8,1,Medium,6.1,Yes,No,71,3,11102.64,0.25
+J008,MA,Braintree,Paver Patio,641,116.2,6,1,Low,4.8,Yes,No,99,2,18459.99,0.25
+J009,MA,Worcester,Paver Patio,275,72.5,4,1,Medium,6.8,Yes,No,80,2,8145.12,0.25
+J010,RI,Newport,Paver Patio,207,53.3,6,1,High,5.3,Yes,No,138,2,6593.31,0.25
+J011,RI,Providence,Paver Patio,635,104.5,6,1,Medium,4.9,Yes,Yes,105,3,20742.3,0.25
+J012,MA,Quincy,Small Retaining Wall,414,83.3,4,1,Low,3.3,No,No,63,2,17193.05,0.25
+J013,MA,Framingham,Paver Patio,595,103.2,4,1,Low,4.7,No,No,107,3,17108.49,0.25
+J014,MA,Weymouth,Paver Patio,366,70.0,4,1,Medium,7.7,Yes,No,105,2,12614.73,0.25
+J015,MA,Worcester,Small Retaining Wall,248,68.4,6,1,Low,6.8,No,Yes,99,4,10656.54,0.25
+J016,MA,Weymouth,Paver Patio,632,117.2,6,1,Low,5.4,No,No,63,3,17174.41,0.25
+J017,MA,Boston,Small Retaining Wall,459,90.3,6,1,High,9.8,No,Yes,63,3,25957.94,0.25
+J018,MA,Boston,Paver Patio,456,78.0,6,1,Medium,8.0,No,No,124,3,12612.63,0.25
+J019,MA,Framingham,Paver Patio,617,116.0,6,1,Low,7.5,No,No,70,3,16542.8,0.25
+J020,RI,Providence,Small Retaining Wall,277,78.8,8,1,Low,3.1,No,No,104,4,11745.52,0.25
+J021,MA,Newton,Paver Patio,340,70.9,4,1,Medium,9.6,No,No,33,2,10219.78,0.25
+J022,MA,Worcester,Paver Patio,565,91.6,6,1,Low,8.0,No,Yes,35,4,17293.86,0.25
+J023,RI,Warwick,Paver Patio,215,66.2,6,1,Medium,8.6,No,Yes,101,3,6135.65,0.25
+J024,MA,Braintree,Paver Patio,369,73.0,6,1,Low,3.3,No,No,110,3,11094.02,0.25
+J025,MA,Newton,Paver Patio,529,95.6,6,1,Medium,9.8,No,Yes,129,2,16305.89,0.25
+J026,MA,Newton,Paver Patio,306,76.5,6,1,Low,4.1,Yes,No,57,2,10359.9,0.25
+J027,MA,Newton,Walkway,148,51.8,6,1,Low,5.5,No,Yes,78,2,4747.92,0.25
+J028,RI,Newport,Paver Patio,397,89.0,6,1,Low,6.3,No,Yes,78,4,10003.95,0.25
+J029,MA,Braintree,Paver Patio,504,97.8,6,1,High,9.6,No,No,93,3,15899.98,0.25
+J030,MA,Weymouth,Walkway,180,57.4,6,1,Medium,4.4,Yes,Yes,55,2,6950.36,0.25
+J031,MA,Weymouth,Walkway,172,60.1,4,1,Medium,5.0,Yes,No,84,4,6659.81,0.25
+J032,RI,Providence,Paver Patio,636,105.8,6,1,Medium,3.9,Yes,No,46,2,20631.44,0.25
+J033,RI,Cranston,Paver Patio,452,88.2,6,1,Low,5.1,Yes,Yes,85,3,14226.12,0.25
+J034,MA,Boston,Paver Patio,546,82.2,4,1,Medium,6.9,Yes,No,66,2,18786.11,0.25
+J035,RI,Warwick,Paver Patio,394,82.7,6,1,High,7.8,No,No,16,3,11126.96,0.25
+J036,MA,Braintree,Walkway,84,37.7,4,1,Medium,9.0,No,Yes,80,4,3209.23,0.25
+J037,MA,Worcester,Paver Patio,361,83.4,4,1,Low,6.0,Yes,No,135,2,9714.0,0.25
+J038,MA,Weymouth,Walkway,269,65.0,6,1,Low,6.7,No,No,70,3,7554.4,0.25
+J039,RI,Pawtucket,Paver Patio,406,88.1,4,1,Low,4.5,No,No,63,3,11578.31,0.25
+J040,MA,Boston,Small Retaining Wall,391,91.9,6,1,Medium,4.9,Yes,No,69,3,18204.49,0.25
+J041,RI,Cranston,Walkway,224,56.7,6,1,Medium,4.9,Yes,Yes,91,3,8838.98,0.25
+J042,RI,Warwick,Small Retaining Wall,361,79.3,4,1,Low,8.4,No,No,20,3,12946.33,0.25
+J043,RI,Cranston,Paver Patio,284,67.1,4,1,Low,9.1,No,No,111,4,7068.4,0.25
+J044,RI,Warwick,Walkway,224,55.9,4,1,Low,4.9,Yes,No,41,2,7206.57,0.25
+J045,MA,Quincy,Paver Patio,297,78.7,4,1,Medium,9.8,Yes,No,121,3,9275.83,0.25
+J046,RI,Warwick,Walkway,182,48.4,4,1,Low,7.1,No,No,61,3,5147.89,0.25
+J047,RI,Warwick,Small Retaining Wall,252,71.7,6,1,Medium,8.4,Yes,Yes,15,3,11446.69,0.25
+J048,MA,Braintree,Paver Patio,362,80.3,6,1,Medium,4.3,No,No,105,3,11664.47,0.25
+J049,MA,Quincy,Paver Patio,184,52.7,4,1,Low,6.8,No,No,55,3,4867.93,0.25
+J050,MA,Weymouth,Paver Patio,226,64.3,4,1,High,9.4,Yes,Yes,10,2,8524.67,0.25
+J051,RI,Warwick,Walkway,157,50.7,6,1,Low,4.8,No,No,116,3,4469.63,0.25
+J052,MA,Braintree,Paver Patio,371,72.7,6,1,Low,5.3,Yes,Yes,53,2,11217.73,0.25
+J053,MA,Quincy,Walkway,188,55.8,6,1,Medium,6.9,No,No,51,2,6207.46,0.25
+J054,MA,Quincy,Paver Patio,494,106.3,6,1,Low,3.7,Yes,Yes,13,4,15126.54,0.25
+J055,RI,Providence,Paver Patio,422,70.4,6,1,High,9.3,No,No,88,4,12005.0,0.25
+J056,MA,Braintree,Walkway,273,69.1,6,1,Low,8.4,Yes,Yes,28,2,10396.62,0.25
+J057,MA,Weymouth,Walkway,117,45.6,4,1,Low,6.7,Yes,Yes,19,3,4299.28,0.25
+J058,MA,Quincy,Paver Patio,498,97.2,6,1,Medium,6.3,No,Yes,58,4,16285.58,0.25
+J059,MA,Newton,Walkway,216,54.2,6,1,High,8.1,Yes,No,20,3,8279.95,0.25
+J060,MA,Newton,Paver Patio,558,101.3,8,1,Low,7.1,No,No,113,3,14644.67,0.25
