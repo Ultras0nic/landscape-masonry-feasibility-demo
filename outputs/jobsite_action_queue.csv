@@ -1,0 +1,61 @@
+job_id,state,city,job_type,workability_status,risk_score,risk_category,estimated_margin_pct,actual_margin_pct,cost_variance,primary_risk_reason,recommended_action,priority,owner_role,field_notes_required
+J011,RI,Providence,Paver Patio,Requires Site Review,87,High Risk,0.421,0.362,1217.3,Narrow site access; Drainage concern,Schedule site review before approval,High,Work Lead / Project Manager,Yes
+J005,RI,Warwick,Paver Patio,Requires Site Review,82,High Risk,0.491,0.391,1453.64,Narrow site access; Drainage concern,Schedule site review before approval,High,Work Lead / Project Manager,Yes
+J010,RI,Newport,Paver Patio,Review Before Approval,78,High Risk,0.366,0.219,972.0,Narrow site access; Drainage concern,Confirm drainage plan before scheduling,High,Work Lead,Yes
+J032,RI,Providence,Paver Patio,Review Before Approval,77,High Risk,0.435,0.345,1858.2,Narrow site access; Drainage concern,Confirm drainage plan before scheduling,High,Work Lead,Yes
+J041,RI,Cranston,Walkway,Review Before Approval,69,High Risk,0.476,0.311,1460.6,Narrow site access; Drainage concern,Confirm drainage plan before scheduling,High,Work Lead,Yes
+J008,MA,Braintree,Paver Patio,Review Before Approval,65,High Risk,0.339,0.187,2797.85,Narrow site access; Drainage concern,Confirm drainage plan before scheduling,High,Work Lead,Yes
+J014,MA,Weymouth,Paver Patio,Review Before Approval,60,Needs Review,0.438,0.489,-652.3,Drainage concern; Long material carry distance,Confirm drainage plan before scheduling,High,Work Lead,Yes
+J030,MA,Weymouth,Walkway,Workable,59,Needs Review,0.39,0.347,299.77,Narrow site access; Drainage concern,Confirm drainage plan before scheduling,Low,Work Lead,No
+J031,MA,Weymouth,Walkway,Workable,57,Needs Review,0.435,0.464,-195.49,Narrow site access; Drainage concern,Confirm drainage plan before scheduling,Low,Work Lead,No
+J033,RI,Cranston,Paver Patio,Workable,57,Needs Review,0.428,0.317,1584.51,Narrow site access; Drainage concern,Confirm drainage plan before scheduling,Low,Work Lead,No
+J040,MA,Boston,Small Retaining Wall,Workable,57,Needs Review,0.449,0.374,1359.29,Narrow site access; Drainage concern,Confirm drainage plan before scheduling,Low,Work Lead,No
+J050,MA,Weymouth,Paver Patio,Workable,57,Needs Review,0.45,0.391,500.02,Drainage concern; Demolition required,Confirm drainage plan before scheduling,Low,Work Lead,No
+J052,MA,Braintree,Paver Patio,Workable,57,Needs Review,0.346,0.352,-65.88,Narrow site access; Drainage concern,Confirm drainage plan before scheduling,Low,Work Lead,No
+J054,MA,Quincy,Paver Patio,Workable,57,Needs Review,0.367,0.233,2014.98,Narrow site access; Drainage concern,Confirm drainage plan before scheduling,Low,Work Lead,No
+J025,MA,Newton,Paver Patio,Workable,52,Needs Review,0.366,0.454,-1435.78,Demolition required; Long material carry distance,Review labor hours for material movement,Low,Project Team,No
+J034,MA,Boston,Paver Patio,Workable,52,Needs Review,0.464,0.41,1011.79,Drainage concern; Long material carry distance,Confirm drainage plan before scheduling,Low,Work Lead,No
+J045,MA,Quincy,Paver Patio,Workable,50,Needs Review,0.394,0.288,985.28,Drainage concern; Long material carry distance,Confirm drainage plan before scheduling,Low,Work Lead,No
+J037,MA,Worcester,Paver Patio,Workable,48,Needs Review,0.291,0.301,-101.49,Drainage concern; Long material carry distance,Confirm drainage plan before scheduling,Low,Work Lead,No
+J006,MA,Quincy,Small Retaining Wall,Workable,47,Needs Review,0.506,0.451,817.41,Narrow site access; Long material carry distance,Confirm equipment access and material staging,Low,Operations Analyst,No
+J017,MA,Boston,Small Retaining Wall,Workable,47,Needs Review,0.548,0.535,334.65,Demolition required; Long material carry distance,Review labor hours for material movement,Low,Operations Analyst,No
+J012,MA,Quincy,Small Retaining Wall,Workable,45,Needs Review,0.415,0.402,210.76,Narrow site access; Long material carry distance,Confirm equipment access and material staging,Low,Operations Analyst,No
+J048,MA,Braintree,Paver Patio,Workable,45,Needs Review,0.404,0.373,364.7,Narrow site access; Long material carry distance,Confirm equipment access and material staging,Low,Operations Analyst,No
+J059,MA,Newton,Walkway,Workable,45,Needs Review,0.453,0.388,537.0,Drainage concern; Slope / grading difficulty,Confirm drainage plan before scheduling,Low,Work Lead,No
+J047,RI,Warwick,Small Retaining Wall,Workable,44,Needs Review,0.485,0.406,907.35,Drainage concern; Demolition required,Confirm drainage plan before scheduling,Low,Work Lead,No
+J020,RI,Providence,Small Retaining Wall,Workable,43,Needs Review,0.452,0.435,201.72,Narrow site access; Long material carry distance,Confirm equipment access and material staging,Low,Operations Analyst,No
+J024,MA,Braintree,Paver Patio,Workable,43,Needs Review,0.369,0.344,280.41,Narrow site access; Long material carry distance,Confirm equipment access and material staging,Low,Operations Analyst,No
+J007,RI,Providence,Walkway,Workable,42,Needs Review,0.45,0.434,179.43,Drainage concern; Long material carry distance,Confirm drainage plan before scheduling,Low,Work Lead,No
+J009,MA,Worcester,Paver Patio,Workable,42,Needs Review,0.349,0.386,-302.32,Drainage concern; Long material carry distance,Confirm drainage plan before scheduling,Low,Work Lead,No
+J023,RI,Warwick,Paver Patio,Workable,42,Needs Review,0.348,0.326,131.91,Demolition required; Long material carry distance,Review labor hours for material movement,Low,Operations Analyst,No
+J027,MA,Newton,Walkway,Workable,37,Needs Review,0.312,0.17,676.16,Narrow site access; Demolition required,Confirm equipment access and material staging,Low,Operations Analyst,No
+J001,MA,Newton,Paver Patio,Workable,35,Needs Review,0.395,0.401,-52.64,Narrow site access; Long material carry distance,Confirm equipment access and material staging,Low,Project Team,No
+J004,MA,Boston,Paver Patio,Workable,35,Needs Review,0.359,0.329,539.25,Narrow site access; Long material carry distance,Confirm equipment access and material staging,Low,Operations Analyst,No
+J016,MA,Weymouth,Paver Patio,Workable,35,Needs Review,0.347,0.298,830.91,Narrow site access; Long material carry distance,Confirm equipment access and material staging,Low,Operations Analyst,No
+J026,MA,Newton,Paver Patio,Workable,35,Needs Review,0.438,0.347,943.47,Narrow site access; Drainage concern,Confirm drainage plan before scheduling,Low,Work Lead,No
+J029,MA,Braintree,Paver Patio,Workable,35,Needs Review,0.421,0.339,1298.59,Long material carry distance; Slope / grading difficulty,Review labor hours for material movement,Low,Operations Analyst,No
+J044,RI,Warwick,Walkway,Workable,35,Needs Review,0.406,0.398,63.46,Narrow site access; Drainage concern,Confirm drainage plan before scheduling,Low,Work Lead,No
+J055,RI,Providence,Paver Patio,Workable,35,Needs Review,0.416,0.429,-165.66,Long material carry distance; Slope / grading difficulty,Review labor hours for material movement,Low,Project Team,No
+J036,MA,Braintree,Walkway,Workable,34,Needs Review,0.43,0.263,536.6,Demolition required; Long material carry distance,Review labor hours for material movement,Low,Operations Analyst,No
+J013,MA,Framingham,Paver Patio,Workable,33,Needs Review,0.382,0.388,-101.32,Narrow site access; Long material carry distance,Confirm equipment access and material staging,Low,Project Team,No
+J051,RI,Warwick,Walkway,Workable,33,Needs Review,0.305,0.45,-649.47,Narrow site access; Long material carry distance,Confirm equipment access and material staging,Low,Project Team,No
+J056,MA,Braintree,Walkway,Workable,32,Needs Review,0.45,0.385,678.25,Drainage concern; Demolition required,Confirm drainage plan before scheduling,Low,Work Lead,No
+J057,MA,Weymouth,Walkway,Workable,32,Needs Review,0.437,0.291,628.33,Drainage concern; Demolition required,Confirm drainage plan before scheduling,Low,Work Lead,No
+J018,MA,Boston,Paver Patio,Workable,30,Low Risk,0.344,0.303,508.12,Long material carry distance; Slope / grading difficulty,Review labor hours for material movement,Low,Operations Analyst,No
+J003,MA,Worcester,Small Retaining Wall,Workable,25,Low Risk,0.403,0.487,-851.23,Narrow site access,Confirm equipment access and material staging,Low,Project Team,No
+J035,RI,Warwick,Paver Patio,Workable,25,Low Risk,0.401,0.353,538.58,Slope / grading difficulty; Actual cost overrun risk,Compare estimate assumptions with actual cost,Low,Operations Analyst,No
+J039,RI,Pawtucket,Paver Patio,Workable,25,Low Risk,0.425,0.489,-740.24,Narrow site access; Long material carry distance,Confirm equipment access and material staging,Low,Project Team,No
+J058,MA,Quincy,Paver Patio,Workable,24,Low Risk,0.457,0.42,608.78,Demolition required; Slope / grading difficulty,Confirm demolition scope and disposal needs,Low,Operations Analyst,No
+J002,MA,Boston,Paver Patio,Workable,22,Low Risk,0.432,0.299,2561.4,Demolition required; Actual cost overrun risk,Confirm demolition scope and disposal needs,Low,Operations Analyst,No
+J015,MA,Worcester,Small Retaining Wall,Workable,22,Low Risk,0.463,0.442,227.49,Demolition required; Long material carry distance,Review labor hours for material movement,Low,Operations Analyst,No
+J028,RI,Newport,Paver Patio,Workable,22,Low Risk,0.337,0.349,-116.43,Demolition required; Long material carry distance,Review labor hours for material movement,Low,Project Team,No
+J019,MA,Framingham,Paver Patio,Workable,20,Low Risk,0.367,0.255,1850.54,Long material carry distance; Actual cost overrun risk,Review labor hours for material movement,Low,Operations Analyst,No
+J043,RI,Cranston,Paver Patio,Workable,18,Low Risk,0.343,0.369,-179.43,Long material carry distance,Review labor hours for material movement,Low,Project Team,No
+J060,MA,Newton,Paver Patio,Workable,18,Low Risk,0.318,0.374,-820.43,Long material carry distance,Review labor hours for material movement,Low,Project Team,No
+J021,MA,Newton,Paver Patio,Workable,12,Low Risk,0.419,0.396,229.41,Slope / grading difficulty; Actual cost overrun risk,Compare estimate assumptions with actual cost,Low,Operations Analyst,No
+J022,MA,Worcester,Paver Patio,Workable,12,Low Risk,0.434,0.394,684.06,Demolition required; Actual cost overrun risk,Confirm demolition scope and disposal needs,Low,Operations Analyst,No
+J053,MA,Quincy,Walkway,Workable,12,Low Risk,0.4,0.355,279.32,Slope / grading difficulty; Actual cost overrun risk,Compare estimate assumptions with actual cost,Low,Operations Analyst,No
+J038,MA,Weymouth,Walkway,Workable,10,Low Risk,0.329,0.293,266.8,Long material carry distance; Actual cost overrun risk,Review labor hours for material movement,Low,Operations Analyst,No
+J046,RI,Warwick,Walkway,Workable,10,Low Risk,0.37,0.409,-198.68,Long material carry distance,Review labor hours for material movement,Low,Project Team,No
+J042,RI,Warwick,Small Retaining Wall,Workable,0,Low Risk,0.475,0.489,-187.99,No major risk flagged,Proceed with standard review,Low,Project Team,No
+J049,MA,Quincy,Paver Patio,Workable,0,Low Risk,0.369,0.426,-278.39,No major risk flagged,Proceed with standard review,Low,Project Team,No

@@ -1,0 +1,7 @@
+state,job_type,job_count,avg_quoted_price,avg_estimated_total_cost,avg_estimated_margin,avg_risk_score
+MA,Paver Patio,26,13433.46,8217.87,0.387,37.46
+MA,Small Retaining Wall,6,16183.94,8497.39,0.464,40.5
+MA,Walkway,9,6478.34,3840.33,0.404,35.33
+RI,Paver Patio,11,12234.97,7178.51,0.401,49.82
+RI,Small Retaining Wall,3,12046.18,6377.38,0.471,29.0
+RI,Walkway,5,7353.14,4272.86,0.401,37.8
