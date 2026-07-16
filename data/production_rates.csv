@@ -1,4 +1,3 @@
-job_type,sqft_per_labor_hour
-Paver Patio,10.0
-Walkway,8.0
-Small Retaining Wall,5.5
+job_type,sqft_per_labor_hour,effective_date,assumption_version,source_note
+Paver Patio,10.0,2026-07-15,2026-07-demo-v2,Illustrative synthetic assumption; not a vendor quote
+Walkway,8.0,2026-07-15,2026-07-demo-v2,Illustrative synthetic assumption; not a vendor quote

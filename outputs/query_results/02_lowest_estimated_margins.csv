@@ -1,0 +1,16 @@
+job_id,state,city,job_type,quoted_price,estimated_total_cost,estimated_margin_pct,target_margin_pct
+J010,MA,Quincy,Paver Patio,4426.35,4047.63,0.086,0.25
+J016,MA,Quincy,Paver Patio,5968.59,5381.65,0.098,0.25
+J060,MA,Braintree,Paver Patio,11825.62,10412.83,0.119,0.25
+J050,RI,Cranston,Paver Patio,8960.03,7724.79,0.138,0.25
+J040,MA,Braintree,Paver Patio,13938.95,11736.39,0.158,0.25
+J020,RI,Cranston,Walkway,5322.24,4471.19,0.16,0.25
+J043,MA,Quincy,Paver Patio,16772.14,13512.48,0.194,0.25
+J030,MA,Quincy,Paver Patio,11907.73,9477.64,0.204,0.25
+J021,RI,Newport,Paver Patio,5511.46,4363.58,0.208,0.25
+J037,MA,Boston,Paver Patio,4587.01,3546.55,0.227,0.25
+J025,MA,Framingham,Paver Patio,14147.33,10916.76,0.228,0.25
+J015,MA,Boston,Paver Patio,7835.09,6040.48,0.229,0.25
+J041,MA,Worcester,Paver Patio,10165.24,7681.41,0.244,0.25
+J026,MA,Quincy,Paver Patio,14400.55,10833.51,0.248,0.25
+J029,MA,Quincy,Paver Patio,15724.21,11785.38,0.25,0.25

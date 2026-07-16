@@ -1,0 +1,15 @@
+job_id,state,city,job_type,quoted_price,estimated_total_cost,estimated_margin_pct,target_margin_pct,site_risk_points,workability_status
+J010,MA,Quincy,Paver Patio,4426.35,4047.63,0.086,0.25,49,Review Before Approval
+J016,MA,Quincy,Paver Patio,5968.59,5381.65,0.098,0.25,33,Review Before Approval
+J060,MA,Braintree,Paver Patio,11825.62,10412.83,0.119,0.25,55,Review Before Approval
+J050,RI,Cranston,Paver Patio,8960.03,7724.79,0.138,0.25,37,Review Before Approval
+J040,MA,Braintree,Paver Patio,13938.95,11736.39,0.158,0.25,32,Review Before Approval
+J020,RI,Cranston,Walkway,5322.24,4471.19,0.16,0.25,20,Review Before Approval
+J043,MA,Quincy,Paver Patio,16772.14,13512.48,0.194,0.25,65,Review Before Approval
+J030,MA,Quincy,Paver Patio,11907.73,9477.64,0.204,0.25,25,No Additional Review Flagged
+J021,RI,Newport,Paver Patio,5511.46,4363.58,0.208,0.25,30,No Additional Review Flagged
+J037,MA,Boston,Paver Patio,4587.01,3546.55,0.227,0.25,18,No Additional Review Flagged
+J025,MA,Framingham,Paver Patio,14147.33,10916.76,0.228,0.25,20,No Additional Review Flagged
+J015,MA,Boston,Paver Patio,7835.09,6040.48,0.229,0.25,37,No Additional Review Flagged
+J041,MA,Worcester,Paver Patio,10165.24,7681.41,0.244,0.25,35,No Additional Review Flagged
+J026,MA,Quincy,Paver Patio,14400.55,10833.51,0.248,0.25,10,No Additional Review Flagged

@@ -1,51 +1,52 @@
+"""Run the documented SQL analysis and fail if any query fails."""
+
 from pathlib import Path
 import sqlite3
+
 import pandas as pd
+
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 DB_PATH = BASE_DIR / "landscape_masonry_demo.db"
 SQL_PATH = BASE_DIR / "sql" / "analysis_queries.sql"
 OUTPUT_DIR = BASE_DIR / "outputs" / "query_results"
 
-OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+QUERY_NAMES = [
+    "jobs_requiring_review",
+    "lowest_estimated_margins",
+    "state_summary",
+    "job_type_summary",
+    "estimate_vs_actual",
+    "cost_overruns",
+    "risk_factor_counts",
+    "review_status_counts",
+    "below_target_margin",
+    "tableau_state_job_type",
+    "preconstruction_action_log",
+    "post_job_learning",
+]
 
-print(f"Using database: {DB_PATH}")
-print(f"Using SQL file: {SQL_PATH}")
 
-if not DB_PATH.exists():
-    raise FileNotFoundError(f"Database not found: {DB_PATH}")
+def main() -> None:
+    if not DB_PATH.exists() or not SQL_PATH.exists():
+        raise FileNotFoundError("Run the pipeline through load_to_sqlite.py first.")
 
-if not SQL_PATH.exists():
-    raise FileNotFoundError(f"SQL file not found: {SQL_PATH}")
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    for stale_file in OUTPUT_DIR.glob("*.csv"):
+        stale_file.unlink()
 
-conn = sqlite3.connect(DB_PATH)
+    lines = [line for line in SQL_PATH.read_text(encoding="utf-8").splitlines() if not line.strip().startswith("--")]
+    queries = [query.strip() for query in "\n".join(lines).split(";") if query.strip()]
+    if len(queries) != len(QUERY_NAMES):
+        raise ValueError(f"Expected {len(QUERY_NAMES)} queries, found {len(queries)}")
 
-sql_text = SQL_PATH.read_text(encoding="utf-8")
+    with sqlite3.connect(DB_PATH) as connection:
+        for index, (name, query) in enumerate(zip(QUERY_NAMES, queries), start=1):
+            frame = pd.read_sql_query(query, connection)
+            output_file = OUTPUT_DIR / f"{index:02d}_{name}.csv"
+            frame.to_csv(output_file, index=False)
+            print(f"Saved {len(frame):>3} rows to {output_file.name}.")
 
-clean_lines = []
-for line in sql_text.splitlines():
-    if not line.strip().startswith("--"):
-        clean_lines.append(line)
 
-clean_sql = "\n".join(clean_lines)
-queries = [q.strip() for q in clean_sql.split(";") if q.strip()]
-
-print(f"Found {len(queries)} SQL queries.")
-
-for i, query in enumerate(queries, start=1):
-    try:
-        df = pd.read_sql_query(query, conn)
-        output_file = OUTPUT_DIR / f"query_{i:02d}.csv"
-        df.to_csv(output_file, index=False)
-
-        print(f"\nQuery {i} result:")
-        print(df.head(10))
-        print(f"Saved to: {output_file}")
-
-    except Exception as e:
-        print(f"\nQuery {i} failed.")
-        print(query)
-        print(f"Error: {e}")
-
-conn.close()
-print("\nDone.")
+if __name__ == "__main__":
+    main()

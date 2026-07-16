@@ -1,8 +1,0 @@
-job_id,state,city,job_type,quoted_price,estimated_total_cost,estimated_margin_pct,risk_score,risk_category,workability_status
-J011,RI,Providence,Paver Patio,20742.3,12007.64,0.421,87,High Risk,Requires Site Review
-J005,RI,Warwick,Paver Patio,14473.18,7366.15,0.491,82,High Risk,Requires Site Review
-J010,RI,Newport,Paver Patio,6593.31,4178.79,0.366,78,High Risk,Review Before Approval
-J032,RI,Providence,Paver Patio,20631.44,11662.25,0.435,77,High Risk,Review Before Approval
-J041,RI,Cranston,Walkway,8838.98,4629.56,0.476,69,High Risk,Review Before Approval
-J008,MA,Braintree,Paver Patio,18459.99,12209.08,0.339,65,High Risk,Review Before Approval
-J014,MA,Weymouth,Paver Patio,12614.73,7093.32,0.438,60,Needs Review,Review Before Approval

@@ -1,0 +1,61 @@
+job_id,job_name,state,job_type,estimated_total_cost,actual_total_cost,cost_variance,estimated_labor_hours,actual_labor_hours,estimated_margin_pct,actual_margin_pct,change_order_flag,change_order_cost,site_risk_points,risk_drivers
+J035,Paver Patio 035,RI,Paver Patio,13111.38,15701.63,2590.25,118.72,141.32,0.327,0.194,Yes,1314.3,73,Very narrow site access | Drainage concern | Very long material carry | Large job footprint
+J006,Paver Patio 006,MA,Paver Patio,10772.53,12704.45,1931.92,90.59,106.43,0.444,0.344,Yes,1074.22,59,Narrow site access | Medium slope | Drainage concern | Demolition required
+J043,Paver Patio 043,MA,Paver Patio,13512.48,15358.79,1846.31,99.54,100.63,0.194,0.084,Yes,1475.59,65,Very narrow site access | Drainage concern | Large job footprint | Small crew for job size
+J044,Paver Patio 044,MA,Paver Patio,12094.98,13794.36,1699.38,96.05,120.73,0.334,0.24,No,0.0,55,Narrow site access | Medium slope | Very long material carry | Large job footprint
+J057,Paver Patio 057,RI,Paver Patio,8596.52,9959.0,1362.48,77.52,102.61,0.336,0.23,No,0.0,88,Narrow site access | High slope | Drainage concern | Very long material carry | Small crew for job size
+J011,Paver Patio 011,RI,Paver Patio,11720.97,12883.08,1162.11,97.98,113.66,0.303,0.234,Yes,470.97,57,Narrow site access | Medium slope | Drainage concern | Large job footprint
+J023,Paver Patio 023,RI,Paver Patio,6225.78,7171.75,945.97,49.76,62.84,0.468,0.387,No,0.0,45,High slope | Drainage concern
+J029,Paver Patio 029,MA,Paver Patio,11785.38,12679.73,894.35,87.13,98.82,0.25,0.194,No,0.0,47,Very narrow site access | Demolition required | Large job footprint
+J050,Paver Patio 050,RI,Paver Patio,7724.79,8519.04,794.25,56.77,69.94,0.138,0.049,No,0.0,37,Narrow site access | Demolition required | Small crew for job size
+J015,Paver Patio 015,MA,Paver Patio,6040.48,6694.99,654.51,43.98,54.35,0.229,0.146,No,0.0,37,Very narrow site access | Demolition required
+J018,Paver Patio 018,MA,Paver Patio,9742.22,10387.86,645.64,71.94,83.21,0.366,0.324,No,0.0,33,Narrow site access | Very long material carry
+J040,Paver Patio 040,MA,Paver Patio,11736.39,12380.06,643.67,82.84,91.7,0.158,0.112,No,0.0,32,Medium slope | Long material carry | Large job footprint
+J030,Paver Patio 030,MA,Paver Patio,9477.64,10119.11,641.47,65.38,72.25,0.204,0.15,No,0.0,25,High slope
+J024,Paver Patio 024,MA,Paver Patio,6306.77,6944.03,637.26,50.09,57.27,0.477,0.424,No,0.0,57,High slope | Drainage concern | Demolition required
+J012,Walkway 012,MA,Walkway,3748.42,4361.57,613.15,31.77,36.7,0.363,0.259,Yes,374.87,57,Very narrow site access | Drainage concern | Demolition required
+J051,Paver Patio 051,MA,Paver Patio,6378.67,6961.27,582.6,47.56,47.55,0.455,0.405,Yes,733.92,44,Medium slope | Drainage concern | Demolition required
+J025,Paver Patio 025,MA,Paver Patio,10916.76,11486.07,569.31,72.38,65.11,0.228,0.188,Yes,779.08,20,Long material carry | Large job footprint
+J022,Paver Patio 022,MA,Paver Patio,11075.6,11615.47,539.87,78.67,93.14,0.328,0.295,No,0.0,43,Narrow site access | Very long material carry | Small crew for job size
+J007,Paver Patio 007,MA,Paver Patio,12177.46,12691.46,514.0,93.13,99.07,0.419,0.394,No,0.0,47,Narrow site access | Medium slope | Long material carry | Large job footprint
+J014,Paver Patio 014,RI,Paver Patio,10186.66,10680.58,493.92,73.48,69.08,0.426,0.399,No,0.0,22,Demolition required | Large job footprint
+J016,Paver Patio 016,MA,Paver Patio,5381.65,5859.57,477.92,36.83,45.95,0.098,0.018,No,0.0,33,Narrow site access | Very long material carry
+J060,Paver Patio 060,MA,Paver Patio,10412.83,10831.89,419.06,82.7,90.43,0.119,0.084,No,0.0,55,Very narrow site access | Medium slope | Very long material carry
+J001,Walkway 001,RI,Walkway,4036.07,4449.17,413.1,39.6,46.99,0.488,0.436,No,0.0,55,High slope | Demolition required | Very long material carry
+J033,Walkway 033,RI,Walkway,4648.21,5047.68,399.47,39.44,47.67,0.271,0.208,No,0.0,35,Very narrow site access | Long material carry
+J028,Paver Patio 028,MA,Paver Patio,5420.34,5817.72,397.38,34.5,37.89,0.374,0.328,No,0.0,12,Medium slope
+J054,Walkway 054,RI,Walkway,5647.3,6044.02,396.72,46.0,48.87,0.375,0.331,No,0.0,12,Demolition required
+J047,Paver Patio 047,RI,Paver Patio,5517.84,5912.8,394.96,42.77,50.09,0.318,0.269,No,0.0,30,Medium slope | Very long material carry
+J004,Paver Patio 004,RI,Paver Patio,9323.96,9712.86,388.9,62.5,67.16,0.352,0.325,No,0.0,10,Large job footprint
+J027,Paver Patio 027,MA,Paver Patio,8350.32,8735.82,385.5,62.04,69.54,0.301,0.269,No,0.0,33,Narrow site access | Very long material carry
+J042,Paver Patio 042,MA,Paver Patio,7748.87,8120.96,372.09,52.12,53.3,0.375,0.345,No,0.0,22,Demolition required | Long material carry
+J045,Paver Patio 045,MA,Paver Patio,3859.22,4218.86,359.64,26.88,32.16,0.317,0.254,No,0.0,18,Very long material carry
+J052,Paver Patio 052,MA,Paver Patio,9372.53,9731.28,358.75,71.77,83.19,0.434,0.413,No,0.0,47,Narrow site access | Drainage concern | Demolition required
+J041,Paver Patio 041,MA,Paver Patio,7681.41,8017.91,336.5,55.51,53.45,0.244,0.211,Yes,541.52,35,Narrow site access | Drainage concern
+J021,Paver Patio 021,RI,Paver Patio,4363.58,4680.2,316.62,33.48,36.4,0.208,0.151,No,0.0,30,Demolition required | Very long material carry
+J056,Walkway 056,MA,Walkway,5712.03,6024.96,312.93,41.74,46.28,0.344,0.308,No,0.0,20,Drainage concern
+J039,Paver Patio 039,MA,Paver Patio,7006.3,7306.58,300.28,51.51,51.37,0.3,0.27,No,0.0,37,Narrow site access | Demolition required | Long material carry
+J010,Paver Patio 010,MA,Paver Patio,4047.63,4346.73,299.1,29.95,33.37,0.086,0.018,No,0.0,49,Narrow site access | Medium slope | Demolition required | Long material carry
+J008,Paver Patio 008,MA,Paver Patio,4724.53,5009.79,285.26,32.75,37.79,0.389,0.352,No,0.0,25,High slope
+J049,Walkway 049,MA,Walkway,6571.7,6826.83,255.13,55.89,61.17,0.435,0.413,No,0.0,38,Drainage concern | Very long material carry
+J013,Walkway 013,MA,Walkway,2532.1,2748.09,215.99,19.07,21.84,0.285,0.224,No,0.0,30,Demolition required | Very long material carry
+J020,Walkway 020,RI,Walkway,4471.19,4655.2,184.01,35.4,35.71,0.16,0.125,No,0.0,20,Drainage concern
+J005,Paver Patio 005,RI,Paver Patio,5077.03,5239.57,162.54,38.19,40.92,0.251,0.227,No,0.0,22,Medium slope | Long material carry
+J002,Walkway 002,RI,Walkway,5199.79,5359.94,160.15,48.0,55.44,0.443,0.426,No,0.0,55,High slope | Drainage concern | Long material carry
+J059,Paver Patio 059,MA,Paver Patio,7583.7,7743.16,159.46,56.0,53.9,0.325,0.31,No,0.0,60,Drainage concern | Demolition required | Very long material carry | Small crew for job size
+J038,Paver Patio 038,RI,Paver Patio,11357.02,11507.5,150.48,84.0,80.27,0.389,0.381,No,0.0,22,Medium slope | Large job footprint
+J037,Paver Patio 037,MA,Paver Patio,3546.55,3693.25,146.7,23.52,27.29,0.227,0.195,No,0.0,18,Very long material carry
+J046,Walkway 046,MA,Walkway,1765.98,1905.61,139.63,13.12,15.67,0.415,0.369,No,0.0,25,High slope
+J048,Paver Patio 048,MA,Paver Patio,9716.19,9835.34,119.15,65.43,65.89,0.433,0.426,No,0.0,12,Demolition required
+J031,Walkway 031,RI,Walkway,4272.76,4334.54,61.78,37.38,38.52,0.259,0.249,No,0.0,35,Narrow site access | Drainage concern
+J017,Walkway 017,MA,Walkway,2089.22,2096.26,7.04,13.38,12.94,0.349,0.346,No,0.0,0,No scored site risk
+J058,Walkway 058,RI,Walkway,3303.31,3297.36,-5.95,25.06,22.84,0.339,0.341,No,0.0,12,Medium slope
+J026,Paver Patio 026,MA,Paver Patio,10833.51,10793.58,-39.93,68.4,67.96,0.248,0.25,No,0.0,10,Large job footprint
+J053,Walkway 053,RI,Walkway,2062.09,2016.54,-45.55,17.36,16.82,0.477,0.489,No,0.0,27,Narrow site access | Medium slope
+J019,Walkway 019,RI,Walkway,4902.7,4800.02,-102.68,40.96,39.25,0.366,0.38,Yes,180.32,30,Drainage concern | Long material carry
+J032,Paver Patio 032,MA,Paver Patio,8174.14,8066.27,-107.87,56.24,52.65,0.348,0.357,No,0.0,22,Medium slope | Long material carry
+J009,Paver Patio 009,MA,Paver Patio,6081.09,5947.54,-133.55,38.18,33.54,0.347,0.361,No,0.0,12,Demolition required
+J003,Paver Patio 003,MA,Paver Patio,8069.3,7860.52,-208.78,55.02,53.0,0.274,0.292,No,0.0,22,Medium slope | Long material carry
+J034,Paver Patio 034,MA,Paver Patio,6187.71,5602.07,-585.64,41.24,33.82,0.384,0.442,No,0.0,22,Medium slope | Long material carry
+J036,Paver Patio 036,RI,Paver Patio,9624.5,8910.29,-714.21,64.9,51.96,0.411,0.454,No,0.0,10,Large job footprint
+J055,Paver Patio 055,MA,Paver Patio,12197.11,11344.51,-852.6,82.95,71.3,0.345,0.391,No,0.0,30,Drainage concern | Large job footprint
