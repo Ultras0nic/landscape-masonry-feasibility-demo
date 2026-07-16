@@ -7,12 +7,12 @@ SELECT
     quoted_price,
     estimated_total_cost,
     estimated_margin_pct,
-    risk_score,
+    site_risk_points,
     risk_category,
     workability_status
 FROM job_feasibility_summary
-WHERE workability_status <> 'Workable'
-ORDER BY risk_score DESC, estimated_margin_pct ASC;
+WHERE workability_status <> 'No Additional Review Flagged'
+ORDER BY site_risk_points DESC, estimated_margin_pct ASC;
 
 -- Query 2: Lowest estimated margin jobs
 SELECT
@@ -32,23 +32,23 @@ LIMIT 15;
 SELECT
     state,
     COUNT(*) AS job_count,
-    ROUND(AVG(risk_score), 2) AS avg_risk_score,
+    ROUND(AVG(site_risk_points), 2) AS avg_site_risk_points,
     ROUND(AVG(estimated_margin_pct), 3) AS avg_estimated_margin,
     ROUND(AVG(estimated_total_cost), 2) AS avg_estimated_cost
 FROM job_feasibility_summary
 GROUP BY state
-ORDER BY avg_risk_score DESC;
+ORDER BY avg_site_risk_points DESC;
 
 -- Query 4: Average risk and margin by job type
 SELECT
     job_type,
     COUNT(*) AS job_count,
-    ROUND(AVG(risk_score), 2) AS avg_risk_score,
+    ROUND(AVG(site_risk_points), 2) AS avg_site_risk_points,
     ROUND(AVG(estimated_margin_pct), 3) AS avg_estimated_margin,
     ROUND(AVG(estimated_labor_hours), 2) AS avg_labor_hours
 FROM job_feasibility_summary
 GROUP BY job_type
-ORDER BY avg_risk_score DESC;
+ORDER BY avg_site_risk_points DESC;
 
 -- Query 5: Estimate vs actual cost comparison
 SELECT
@@ -75,7 +75,7 @@ SELECT
     s.state,
     s.city,
     s.job_type,
-    s.risk_score,
+    s.site_risk_points,
     s.risk_category,
     s.drainage_concern,
     s.demo_required,
@@ -104,7 +104,7 @@ FROM job_feasibility_summary;
 SELECT
     workability_status,
     COUNT(*) AS job_count,
-    ROUND(AVG(risk_score), 2) AS avg_risk_score,
+    ROUND(AVG(site_risk_points), 2) AS avg_site_risk_points,
     ROUND(AVG(estimated_margin_pct), 3) AS avg_estimated_margin
 FROM job_feasibility_summary
 GROUP BY workability_status
@@ -120,7 +120,7 @@ SELECT
     estimated_total_cost,
     estimated_margin_pct,
     target_margin_pct,
-    risk_score,
+    site_risk_points,
     workability_status
 FROM job_feasibility_summary
 WHERE estimated_margin_pct < target_margin_pct
@@ -134,7 +134,49 @@ SELECT
     ROUND(AVG(quoted_price), 2) AS avg_quoted_price,
     ROUND(AVG(estimated_total_cost), 2) AS avg_estimated_total_cost,
     ROUND(AVG(estimated_margin_pct), 3) AS avg_estimated_margin,
-    ROUND(AVG(risk_score), 2) AS avg_risk_score
+    ROUND(AVG(site_risk_points), 2) AS avg_site_risk_points
 FROM job_feasibility_summary
 GROUP BY state, job_type
 ORDER BY state, job_type;
+
+-- Query 11: Preconstruction look-ahead action list
+SELECT
+    priority,
+    job_id,
+    job_name,
+    site,
+    blocker,
+    next_action,
+    responsible_role,
+    assignee,
+    needed_by,
+    status,
+    lookahead_bucket,
+    escalation_flag,
+    blocking_flag
+FROM preconstruction_action_log
+WHERE status <> 'Done'
+ORDER BY
+    CASE priority WHEN 'High' THEN 1 WHEN 'Medium' THEN 2 ELSE 3 END,
+    needed_by,
+    job_id;
+
+-- Query 12: Post-job learning review
+SELECT
+    job_id,
+    job_name,
+    state,
+    job_type,
+    estimated_total_cost,
+    actual_total_cost,
+    cost_variance,
+    estimated_labor_hours,
+    actual_labor_hours,
+    estimated_margin_pct,
+    actual_margin_pct,
+    change_order_flag,
+    change_order_cost,
+    site_risk_points,
+    risk_drivers
+FROM post_job_variance_review
+ORDER BY cost_variance DESC;

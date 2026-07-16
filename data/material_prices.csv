@@ -1,13 +1,13 @@
-state,material_type,unit,unit_cost
-MA,pavers,sqft,8.5
-MA,base_gravel,cubic_yard,62.0
-MA,bedding_sand,cubic_yard,54.0
-MA,edging,linear_ft,4.25
-MA,disposal,cubic_yard,48.0
-MA,equipment_day,day,185.0
-RI,pavers,sqft,8.0
-RI,base_gravel,cubic_yard,58.0
-RI,bedding_sand,cubic_yard,50.0
-RI,edging,linear_ft,4.0
-RI,disposal,cubic_yard,44.0
-RI,equipment_day,day,170.0
+state,material_type,unit,unit_cost,effective_date,assumption_version,source_note
+MA,pavers,sqft,8.5,2026-07-15,2026-07-demo-v2,Illustrative synthetic assumption; not a vendor quote
+MA,base_gravel,cubic_yard,62.0,2026-07-15,2026-07-demo-v2,Illustrative synthetic assumption; not a vendor quote
+MA,bedding_sand,cubic_yard,54.0,2026-07-15,2026-07-demo-v2,Illustrative synthetic assumption; not a vendor quote
+MA,edging,linear_ft,4.25,2026-07-15,2026-07-demo-v2,Illustrative synthetic assumption; not a vendor quote
+MA,disposal,cubic_yard,48.0,2026-07-15,2026-07-demo-v2,Illustrative synthetic assumption; not a vendor quote
+MA,equipment_day,day,185.0,2026-07-15,2026-07-demo-v2,Illustrative synthetic assumption; not a vendor quote
+RI,pavers,sqft,8.0,2026-07-15,2026-07-demo-v2,Illustrative synthetic assumption; not a vendor quote
+RI,base_gravel,cubic_yard,58.0,2026-07-15,2026-07-demo-v2,Illustrative synthetic assumption; not a vendor quote
+RI,bedding_sand,cubic_yard,50.0,2026-07-15,2026-07-demo-v2,Illustrative synthetic assumption; not a vendor quote
+RI,edging,linear_ft,4.0,2026-07-15,2026-07-demo-v2,Illustrative synthetic assumption; not a vendor quote
+RI,disposal,cubic_yard,44.0,2026-07-15,2026-07-demo-v2,Illustrative synthetic assumption; not a vendor quote
+RI,equipment_day,day,170.0,2026-07-15,2026-07-demo-v2,Illustrative synthetic assumption; not a vendor quote

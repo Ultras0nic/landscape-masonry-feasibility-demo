@@ -1,261 +1,238 @@
+"""Create pre-job estimates and a separate synthetic closeout dataset."""
+
 from pathlib import Path
+
 import numpy as np
 import pandas as pd
 
-np.random.seed(99)
+
+SEED = 99
+RISK_MODEL_VERSION = "rules-v2-illustrative"
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 DATA_DIR = BASE_DIR / "data"
 OUTPUT_DIR = BASE_DIR / "outputs"
 OUTPUT_DIR.mkdir(exist_ok=True)
 
-jobs = pd.read_csv(DATA_DIR / "jobs.csv")
-material_prices = pd.read_csv(DATA_DIR / "material_prices.csv")
-labor_rates = pd.read_csv(DATA_DIR / "labor_rates.csv")
-production_rates = pd.read_csv(DATA_DIR / "production_rates.csv")
+
+def lookup(df: pd.DataFrame, filters: dict[str, object], value: str) -> float:
+    matches = df.copy()
+    for column, expected in filters.items():
+        matches = matches[matches[column] == expected]
+    if len(matches) != 1:
+        raise ValueError(f"Expected one {value} row for {filters}, found {len(matches)}")
+    return float(matches[value].iloc[0])
 
 
-def get_material_price(state, material_type):
-    row = material_prices[
-        (material_prices["state"] == state) &
-        (material_prices["material_type"] == material_type)
-    ]
-    return float(row["unit_cost"].iloc[0])
-
-
-def get_labor_rate(state):
-    row = labor_rates[labor_rates["state"] == state]
-    return float(row["labor_cost_per_hour"].iloc[0])
-
-
-def get_production_rate(job_type):
-    row = production_rates[production_rates["job_type"] == job_type]
-    return float(row["sqft_per_labor_hour"].iloc[0])
-
-
-def calculate_risk_score(row):
-    risk = 0
-
+def risk_components(row: pd.Series) -> list[tuple[str, int]]:
+    components: list[tuple[str, int]] = []
     if row["access_width_ft"] < 4:
-        risk += 25
+        components.append(("Very narrow site access", 25))
     elif row["access_width_ft"] < 6:
-        risk += 15
-
+        components.append(("Narrow site access", 15))
     if row["slope_level"] == "Medium":
-        risk += 12
+        components.append(("Medium slope", 12))
     elif row["slope_level"] == "High":
-        risk += 25
-
+        components.append(("High slope", 25))
     if row["drainage_concern"] == "Yes":
-        risk += 20
-
+        components.append(("Drainage concern", 20))
     if row["demo_required"] == "Yes":
-        risk += 12
-
+        components.append(("Demolition required", 12))
     if row["carry_distance_ft"] > 100:
-        risk += 18
+        components.append(("Very long material carry", 18))
     elif row["carry_distance_ft"] > 60:
-        risk += 10
-
+        components.append(("Long material carry", 10))
     if row["area_sqft"] > 600:
-        risk += 10
-
+        components.append(("Large job footprint", 10))
     if row["crew_size"] < 3 and row["area_sqft"] > 350:
-        risk += 10
+        components.append(("Small crew for job size", 10))
+    return components
 
-    return risk
 
-
-def risk_category(score):
+def risk_category(score: int) -> str:
     if score <= 30:
         return "Low Risk"
-    elif score <= 60:
+    if score <= 60:
         return "Needs Review"
-    else:
-        return "High Risk"
+    return "High Risk"
 
 
-def workability_status(risk_score, estimated_margin_pct):
-    if risk_score >= 80 or estimated_margin_pct < 0.08:
-        return "Requires Site Review"
-    elif risk_score >= 60 or estimated_margin_pct < 0.18:
+def workability_status(score: int, estimated_margin_pct: float) -> str:
+    if score >= 80 or estimated_margin_pct < 0.08:
+        return "Site Review Required"
+    if score >= 60 or estimated_margin_pct < 0.18:
         return "Review Before Approval"
-    else:
-        return "Workable"
+    return "No Additional Review Flagged"
 
 
-records = []
-actual_records = []
+def main() -> None:
+    rng = np.random.default_rng(SEED)
+    jobs = pd.read_csv(DATA_DIR / "jobs.csv")
+    material_prices = pd.read_csv(DATA_DIR / "material_prices.csv")
+    labor_rates = pd.read_csv(DATA_DIR / "labor_rates.csv")
+    production_rates = pd.read_csv(DATA_DIR / "production_rates.csv")
 
-for _, row in jobs.iterrows():
-    state = row["state"]
-    area = row["area_sqft"]
-    perimeter = row["perimeter_ft"]
+    unsupported = set(jobs["job_type"]) - {"Paver Patio", "Walkway"}
+    if unsupported:
+        raise ValueError(f"Unsupported job types for flatwork estimator: {sorted(unsupported)}")
 
-    paver_cost = get_material_price(state, "pavers")
-    gravel_cost = get_material_price(state, "base_gravel")
-    sand_cost = get_material_price(state, "bedding_sand")
-    edging_cost = get_material_price(state, "edging")
-    disposal_cost = get_material_price(state, "disposal")
-    equipment_day_cost = get_material_price(state, "equipment_day")
-    labor_rate = get_labor_rate(state)
-    production_rate = get_production_rate(row["job_type"])
+    estimate_records: list[dict[str, object]] = []
+    actual_records: list[dict[str, object]] = []
 
-    # Material takeoff
-    paver_sqft = area * 1.08
-    gravel_cy = area * (row["base_depth_in"] / 12) / 27 * 1.10
-    sand_cy = area * (row["sand_depth_in"] / 12) / 27 * 1.10
-    edging_lf = perimeter * 1.05
+    for _, row in jobs.iterrows():
+        state = row["state"]
+        area = float(row["area_sqft"])
+        perimeter = float(row["perimeter_ft"])
 
-    material_cost = (
-        paver_sqft * paver_cost +
-        gravel_cy * gravel_cost +
-        sand_cy * sand_cost +
-        edging_lf * edging_cost
-    )
+        price = lambda material: lookup(
+            material_prices,
+            {"state": state, "material_type": material},
+            "unit_cost",
+        )
+        labor_rate = lookup(labor_rates, {"state": state}, "labor_cost_per_hour")
+        production_rate = lookup(
+            production_rates,
+            {"job_type": row["job_type"]},
+            "sqft_per_labor_hour",
+        )
 
-    if row["demo_required"] == "Yes":
-        disposal_cy = area * 0.10 / 27
-        material_cost += disposal_cy * disposal_cost
+        paver_sqft = area * 1.08
+        gravel_cy = area * (float(row["base_depth_in"]) / 12) / 27 * 1.10
+        sand_cy = area * (float(row["sand_depth_in"]) / 12) / 27 * 1.10
+        edging_lf = perimeter * 1.05
+        material_cost = (
+            paver_sqft * price("pavers")
+            + gravel_cy * price("base_gravel")
+            + sand_cy * price("bedding_sand")
+            + edging_lf * price("edging")
+        )
+        if row["demo_required"] == "Yes":
+            material_cost += area * 0.10 / 27 * price("disposal")
 
-    # Labor modifier
-    labor_modifier = 1.0
+        labor_modifier = 1.0
+        labor_modifier += {"Low": 0.0, "Medium": 0.12, "High": 0.25}[row["slope_level"]]
+        labor_modifier += 0.22 if row["access_width_ft"] < 4 else 0.12 if row["access_width_ft"] < 6 else 0.0
+        labor_modifier += 0.18 if row["drainage_concern"] == "Yes" else 0.0
+        labor_modifier += 0.15 if row["demo_required"] == "Yes" else 0.0
+        labor_modifier += 0.20 if row["carry_distance_ft"] > 100 else 0.10 if row["carry_distance_ft"] > 60 else 0.0
 
-    if row["slope_level"] == "Medium":
-        labor_modifier += 0.12
-    elif row["slope_level"] == "High":
-        labor_modifier += 0.25
+        estimated_labor_hours = round(area / production_rate * labor_modifier, 2)
+        estimated_labor_cost = round(estimated_labor_hours * labor_rate, 2)
+        estimated_duration_days = round(estimated_labor_hours / (int(row["crew_size"]) * 8), 2)
+        equipment_days = max(1, int(np.ceil(estimated_duration_days)))
+        equipment_cost = round(equipment_days * price("equipment_day"), 2)
+        material_cost = round(material_cost, 2)
+        estimated_total_cost = round(material_cost + estimated_labor_cost + equipment_cost, 2)
+        quoted_price = float(row["quoted_price"])
+        estimated_margin_pct = round((quoted_price - estimated_total_cost) / quoted_price, 3)
+        margin_gap_pct = round(estimated_margin_pct - float(row["target_margin_pct"]), 3)
 
-    if row["access_width_ft"] < 4:
-        labor_modifier += 0.22
-    elif row["access_width_ft"] < 6:
-        labor_modifier += 0.12
+        components = risk_components(row)
+        site_risk_points = sum(weight for _, weight in components)
+        risk_drivers = " | ".join(name for name, _ in components) or "No scored site risk"
+        risk_component_detail = " | ".join(f"{name}={weight}" for name, weight in components) or "No scored site risk=0"
+        category = risk_category(site_risk_points)
+        status = workability_status(site_risk_points, estimated_margin_pct)
 
-    if row["drainage_concern"] == "Yes":
-        labor_modifier += 0.18
+        estimate_records.append(
+            {
+                "job_id": row["job_id"],
+                "job_name": row["job_name"],
+                "state": state,
+                "city": row["city"],
+                "job_type": row["job_type"],
+                "project_phase": row["project_phase"],
+                "scenario_date": row["scenario_date"],
+                "planned_start_date": row["planned_start_date"],
+                "area_sqft": area,
+                "quoted_price": quoted_price,
+                "estimated_material_cost": material_cost,
+                "estimated_labor_hours": estimated_labor_hours,
+                "estimated_labor_cost": estimated_labor_cost,
+                "estimated_equipment_cost": equipment_cost,
+                "estimated_total_cost": estimated_total_cost,
+                "estimated_margin_pct": estimated_margin_pct,
+                "target_margin_pct": float(row["target_margin_pct"]),
+                "margin_gap_pct": margin_gap_pct,
+                "meets_target_margin": "Yes" if margin_gap_pct >= 0 else "No",
+                "estimated_duration_days": estimated_duration_days,
+                "site_risk_points": site_risk_points,
+                "risk_category": category,
+                "risk_drivers": risk_drivers,
+                "risk_component_detail": risk_component_detail,
+                "risk_model_version": RISK_MODEL_VERSION,
+                "workability_status": status,
+                "slope_level": row["slope_level"],
+                "access_width_ft": float(row["access_width_ft"]),
+                "drainage_concern": row["drainage_concern"],
+                "demo_required": row["demo_required"],
+                "carry_distance_ft": int(row["carry_distance_ft"]),
+                "crew_size": int(row["crew_size"]),
+                "scope_approved": row["scope_approved"],
+                "site_access_verified": row["site_access_verified"],
+                "utility_locate_status": row["utility_locate_status"],
+                "permit_status": row["permit_status"],
+                "materials_status": row["materials_status"],
+                "crew_assigned": row["crew_assigned"],
+                "assumption_version": row["assumption_version"],
+            }
+        )
 
-    if row["demo_required"] == "Yes":
-        labor_modifier += 0.15
+        # These are deliberately simulated closeout outcomes. Separate labor,
+        # material, and change-event mechanisms avoid treating every variance as
+        # the same phenomenon. They remain scenario logic, not learned effects.
+        labor_multiplier = float(rng.normal(1.00, 0.08))
+        labor_multiplier += 0.10 if row["access_width_ft"] < 6 else 0.0
+        labor_multiplier += 0.10 if row["slope_level"] == "High" else 0.0
+        labor_multiplier += 0.08 if row["carry_distance_ft"] > 100 else 0.0
+        material_multiplier = float(rng.normal(1.00, 0.04))
+        material_multiplier += 0.05 if row["demo_required"] == "Yes" else 0.0
 
-    if row["carry_distance_ft"] > 100:
-        labor_modifier += 0.20
-    elif row["carry_distance_ft"] > 60:
-        labor_modifier += 0.10
+        change_probability = 0.05
+        change_probability += 0.18 if row["drainage_concern"] == "Yes" else 0.0
+        change_probability += 0.12 if row["demo_required"] == "Yes" else 0.0
+        change_probability += 0.08 if row["site_access_verified"] == "No" else 0.0
+        change_order_flag = "Yes" if rng.random() < min(change_probability, 0.65) else "No"
+        change_order_cost = (
+            round(estimated_total_cost * float(rng.uniform(0.03, 0.12)), 2)
+            if change_order_flag == "Yes"
+            else 0.0
+        )
 
-    estimated_labor_hours = round((area / production_rate) * labor_modifier, 2)
-    estimated_labor_cost = round(estimated_labor_hours * labor_rate, 2)
+        actual_labor_hours = round(estimated_labor_hours * max(labor_multiplier, 0.70), 2)
+        actual_total_cost = round(
+            material_cost * max(material_multiplier, 0.80)
+            + estimated_labor_cost * max(labor_multiplier, 0.70)
+            + equipment_cost * max(labor_multiplier, 1.0)
+            + change_order_cost,
+            2,
+        )
+        actual_margin_pct = round((quoted_price - actual_total_cost) / quoted_price, 3)
+        actual_records.append(
+            {
+                "job_id": row["job_id"],
+                "actual_labor_hours": actual_labor_hours,
+                "actual_total_cost": actual_total_cost,
+                "actual_margin_pct": actual_margin_pct,
+                "cost_variance": round(actual_total_cost - estimated_total_cost, 2),
+                "margin_variance": round(actual_margin_pct - estimated_margin_pct, 3),
+                "change_order_flag": change_order_flag,
+                "change_order_cost": change_order_cost,
+                "outcome_note": "Synthetic closeout scenario",
+            }
+        )
 
-    estimated_duration_days = round(estimated_labor_hours / (row["crew_size"] * 8), 2)
+    summary = pd.DataFrame(estimate_records)
+    actuals = pd.DataFrame(actual_records)
+    closeout = summary.merge(actuals, on="job_id", how="inner", validate="one_to_one")
+    closeout["analysis_stage"] = "Post-job learning"
 
-    equipment_days = max(1, np.ceil(estimated_duration_days))
-    equipment_cost = equipment_days * equipment_day_cost
+    summary.to_csv(OUTPUT_DIR / "job_feasibility_summary.csv", index=False)
+    actuals.to_csv(DATA_DIR / "actual_job_results.csv", index=False)
+    closeout.to_csv(OUTPUT_DIR / "tableau_job_feasibility_summary.csv", index=False)
+    closeout.to_csv(OUTPUT_DIR / "post_job_variance_review.csv", index=False)
+    print(f"Created estimates and separate synthetic closeout results for {len(summary)} jobs.")
 
-    estimated_total_cost = round(material_cost + estimated_labor_cost + equipment_cost, 2)
 
-    quoted_price = row["quoted_price"]
-    estimated_margin_pct = round((quoted_price - estimated_total_cost) / quoted_price, 3)
-
-    risk_score = calculate_risk_score(row)
-    category = risk_category(risk_score)
-    status = workability_status(risk_score, estimated_margin_pct)
-
-    # Simulated actual results
-    actual_cost_multiplier = np.random.normal(1.00, 0.08)
-
-    if risk_score > 60:
-        actual_cost_multiplier += np.random.uniform(0.05, 0.18)
-
-    if row["drainage_concern"] == "Yes":
-        actual_cost_multiplier += np.random.uniform(0.02, 0.10)
-
-    if row["demo_required"] == "Yes":
-        actual_cost_multiplier += np.random.uniform(0.02, 0.08)
-
-    actual_total_cost = round(estimated_total_cost * actual_cost_multiplier, 2)
-    actual_labor_hours = round(estimated_labor_hours * actual_cost_multiplier, 2)
-    actual_margin_pct = round((quoted_price - actual_total_cost) / quoted_price, 3)
-    cost_variance = round(actual_total_cost - estimated_total_cost, 2)
-    margin_variance = round(actual_margin_pct - estimated_margin_pct, 3)
-
-    change_order_flag = "Yes" if (risk_score > 60 and actual_cost_multiplier > 1.10) else "No"
-
-    records.append([
-        row["job_id"],
-        state,
-        row["city"],
-        row["job_type"],
-        area,
-        row["quoted_price"],
-        round(material_cost, 2),
-        estimated_labor_hours,
-        estimated_labor_cost,
-        round(equipment_cost, 2),
-        estimated_total_cost,
-        estimated_margin_pct,
-        estimated_duration_days,
-        risk_score,
-        category,
-        status,
-        row["slope_level"],
-        row["access_width_ft"],
-        row["drainage_concern"],
-        row["demo_required"],
-        row["carry_distance_ft"],
-        row["crew_size"],
-        row["target_margin_pct"]
-    ])
-
-    actual_records.append([
-        row["job_id"],
-        actual_labor_hours,
-        actual_total_cost,
-        actual_margin_pct,
-        cost_variance,
-        margin_variance,
-        change_order_flag
-    ])
-
-summary = pd.DataFrame(records, columns=[
-    "job_id",
-    "state",
-    "city",
-    "job_type",
-    "area_sqft",
-    "quoted_price",
-    "estimated_material_cost",
-    "estimated_labor_hours",
-    "estimated_labor_cost",
-    "estimated_equipment_cost",
-    "estimated_total_cost",
-    "estimated_margin_pct",
-    "estimated_duration_days",
-    "risk_score",
-    "risk_category",
-    "workability_status",
-    "slope_level",
-    "access_width_ft",
-    "drainage_concern",
-    "demo_required",
-    "carry_distance_ft",
-    "crew_size",
-    "target_margin_pct"
-])
-
-actuals = pd.DataFrame(actual_records, columns=[
-    "job_id",
-    "actual_labor_hours",
-    "actual_total_cost",
-    "actual_margin_pct",
-    "cost_variance",
-    "margin_variance",
-    "change_order_flag"
-])
-
-summary.to_csv(OUTPUT_DIR / "job_feasibility_summary.csv", index=False)
-actuals.to_csv(DATA_DIR / "actual_job_results.csv", index=False)
-
-# Tableau-ready combined dataset
-tableau_df = summary.merge(actuals, on="job_id", how="left")
-tableau_df.to_csv(OUTPUT_DIR / "tableau_job_feasibility_summary.csv", index=False)
-
-print("Estimate, risk, actual result, and Tableau-ready files created.")
+if __name__ == "__main__":
+    main()

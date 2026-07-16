@@ -1,61 +1,61 @@
-job_id,state,city,job_type,area_sqft,perimeter_ft,base_depth_in,sand_depth_in,slope_level,access_width_ft,drainage_concern,demo_required,carry_distance_ft,crew_size,quoted_price,target_margin_pct
-J001,MA,Newton,Paver Patio,251,67.1,4,1,Low,3.4,No,No,62,4,7634.1,0.25
-J002,MA,Boston,Paver Patio,639,107.6,4,1,Low,6.7,No,Yes,24,3,19265.91,0.25
-J003,MA,Worcester,Small Retaining Wall,250,72.8,6,1,Low,3.1,No,No,18,2,10142.56,0.25
-J004,MA,Boston,Paver Patio,688,119.8,4,1,Low,4.3,No,No,63,3,18430.87,0.25
-J005,RI,Warwick,Paver Patio,381,90.8,6,1,High,3.6,Yes,Yes,49,4,14473.18,0.25
-J006,MA,Quincy,Small Retaining Wall,307,72.9,4,1,Medium,3.5,No,No,72,4,14949.07,0.25
-J007,RI,Providence,Walkway,310,75.9,8,1,Medium,6.1,Yes,No,71,3,11102.64,0.25
-J008,MA,Braintree,Paver Patio,641,116.2,6,1,Low,4.8,Yes,No,99,2,18459.99,0.25
-J009,MA,Worcester,Paver Patio,275,72.5,4,1,Medium,6.8,Yes,No,80,2,8145.12,0.25
-J010,RI,Newport,Paver Patio,207,53.3,6,1,High,5.3,Yes,No,138,2,6593.31,0.25
-J011,RI,Providence,Paver Patio,635,104.5,6,1,Medium,4.9,Yes,Yes,105,3,20742.3,0.25
-J012,MA,Quincy,Small Retaining Wall,414,83.3,4,1,Low,3.3,No,No,63,2,17193.05,0.25
-J013,MA,Framingham,Paver Patio,595,103.2,4,1,Low,4.7,No,No,107,3,17108.49,0.25
-J014,MA,Weymouth,Paver Patio,366,70.0,4,1,Medium,7.7,Yes,No,105,2,12614.73,0.25
-J015,MA,Worcester,Small Retaining Wall,248,68.4,6,1,Low,6.8,No,Yes,99,4,10656.54,0.25
-J016,MA,Weymouth,Paver Patio,632,117.2,6,1,Low,5.4,No,No,63,3,17174.41,0.25
-J017,MA,Boston,Small Retaining Wall,459,90.3,6,1,High,9.8,No,Yes,63,3,25957.94,0.25
-J018,MA,Boston,Paver Patio,456,78.0,6,1,Medium,8.0,No,No,124,3,12612.63,0.25
-J019,MA,Framingham,Paver Patio,617,116.0,6,1,Low,7.5,No,No,70,3,16542.8,0.25
-J020,RI,Providence,Small Retaining Wall,277,78.8,8,1,Low,3.1,No,No,104,4,11745.52,0.25
-J021,MA,Newton,Paver Patio,340,70.9,4,1,Medium,9.6,No,No,33,2,10219.78,0.25
-J022,MA,Worcester,Paver Patio,565,91.6,6,1,Low,8.0,No,Yes,35,4,17293.86,0.25
-J023,RI,Warwick,Paver Patio,215,66.2,6,1,Medium,8.6,No,Yes,101,3,6135.65,0.25
-J024,MA,Braintree,Paver Patio,369,73.0,6,1,Low,3.3,No,No,110,3,11094.02,0.25
-J025,MA,Newton,Paver Patio,529,95.6,6,1,Medium,9.8,No,Yes,129,2,16305.89,0.25
-J026,MA,Newton,Paver Patio,306,76.5,6,1,Low,4.1,Yes,No,57,2,10359.9,0.25
-J027,MA,Newton,Walkway,148,51.8,6,1,Low,5.5,No,Yes,78,2,4747.92,0.25
-J028,RI,Newport,Paver Patio,397,89.0,6,1,Low,6.3,No,Yes,78,4,10003.95,0.25
-J029,MA,Braintree,Paver Patio,504,97.8,6,1,High,9.6,No,No,93,3,15899.98,0.25
-J030,MA,Weymouth,Walkway,180,57.4,6,1,Medium,4.4,Yes,Yes,55,2,6950.36,0.25
-J031,MA,Weymouth,Walkway,172,60.1,4,1,Medium,5.0,Yes,No,84,4,6659.81,0.25
-J032,RI,Providence,Paver Patio,636,105.8,6,1,Medium,3.9,Yes,No,46,2,20631.44,0.25
-J033,RI,Cranston,Paver Patio,452,88.2,6,1,Low,5.1,Yes,Yes,85,3,14226.12,0.25
-J034,MA,Boston,Paver Patio,546,82.2,4,1,Medium,6.9,Yes,No,66,2,18786.11,0.25
-J035,RI,Warwick,Paver Patio,394,82.7,6,1,High,7.8,No,No,16,3,11126.96,0.25
-J036,MA,Braintree,Walkway,84,37.7,4,1,Medium,9.0,No,Yes,80,4,3209.23,0.25
-J037,MA,Worcester,Paver Patio,361,83.4,4,1,Low,6.0,Yes,No,135,2,9714.0,0.25
-J038,MA,Weymouth,Walkway,269,65.0,6,1,Low,6.7,No,No,70,3,7554.4,0.25
-J039,RI,Pawtucket,Paver Patio,406,88.1,4,1,Low,4.5,No,No,63,3,11578.31,0.25
-J040,MA,Boston,Small Retaining Wall,391,91.9,6,1,Medium,4.9,Yes,No,69,3,18204.49,0.25
-J041,RI,Cranston,Walkway,224,56.7,6,1,Medium,4.9,Yes,Yes,91,3,8838.98,0.25
-J042,RI,Warwick,Small Retaining Wall,361,79.3,4,1,Low,8.4,No,No,20,3,12946.33,0.25
-J043,RI,Cranston,Paver Patio,284,67.1,4,1,Low,9.1,No,No,111,4,7068.4,0.25
-J044,RI,Warwick,Walkway,224,55.9,4,1,Low,4.9,Yes,No,41,2,7206.57,0.25
-J045,MA,Quincy,Paver Patio,297,78.7,4,1,Medium,9.8,Yes,No,121,3,9275.83,0.25
-J046,RI,Warwick,Walkway,182,48.4,4,1,Low,7.1,No,No,61,3,5147.89,0.25
-J047,RI,Warwick,Small Retaining Wall,252,71.7,6,1,Medium,8.4,Yes,Yes,15,3,11446.69,0.25
-J048,MA,Braintree,Paver Patio,362,80.3,6,1,Medium,4.3,No,No,105,3,11664.47,0.25
-J049,MA,Quincy,Paver Patio,184,52.7,4,1,Low,6.8,No,No,55,3,4867.93,0.25
-J050,MA,Weymouth,Paver Patio,226,64.3,4,1,High,9.4,Yes,Yes,10,2,8524.67,0.25
-J051,RI,Warwick,Walkway,157,50.7,6,1,Low,4.8,No,No,116,3,4469.63,0.25
-J052,MA,Braintree,Paver Patio,371,72.7,6,1,Low,5.3,Yes,Yes,53,2,11217.73,0.25
-J053,MA,Quincy,Walkway,188,55.8,6,1,Medium,6.9,No,No,51,2,6207.46,0.25
-J054,MA,Quincy,Paver Patio,494,106.3,6,1,Low,3.7,Yes,Yes,13,4,15126.54,0.25
-J055,RI,Providence,Paver Patio,422,70.4,6,1,High,9.3,No,No,88,4,12005.0,0.25
-J056,MA,Braintree,Walkway,273,69.1,6,1,Low,8.4,Yes,Yes,28,2,10396.62,0.25
-J057,MA,Weymouth,Walkway,117,45.6,4,1,Low,6.7,Yes,Yes,19,3,4299.28,0.25
-J058,MA,Quincy,Paver Patio,498,97.2,6,1,Medium,6.3,No,Yes,58,4,16285.58,0.25
-J059,MA,Newton,Walkway,216,54.2,6,1,High,8.1,Yes,No,20,3,8279.95,0.25
-J060,MA,Newton,Paver Patio,558,101.3,8,1,Low,7.1,No,No,113,3,14644.67,0.25
+job_id,job_name,state,city,job_type,area_sqft,perimeter_ft,base_depth_in,sand_depth_in,slope_level,access_width_ft,drainage_concern,demo_required,carry_distance_ft,crew_size,quoted_price,target_margin_pct,project_phase,scenario_date,planned_start_date,scope_approved,site_access_verified,utility_locate_status,permit_status,materials_status,crew_assigned,assumption_version
+J001,Walkway 001,RI,Pawtucket,Walkway,198,61.6,4,1,High,8.3,No,Yes,119,3,7882.05,0.25,Preconstruction,2026-07-15,2026-07-25,Yes,No,Confirmed,Approved,Confirmed,Yes,2026-07-demo-v2
+J002,Walkway 002,RI,Warwick,Walkway,251,61.7,8,1,High,8.4,Yes,No,74,2,9331.67,0.25,Preconstruction,2026-07-15,2026-07-16,Yes,No,Confirmed,Approved,Confirmed,Yes,2026-07-demo-v2
+J003,Paver Patio 003,MA,Newton,Paver Patio,451,92.1,6,1,Medium,7.9,No,No,66,3,11107.5,0.25,Preconstruction,2026-07-15,2026-08-01,Yes,Yes,Confirmed,Approved,Pending,Yes,2026-07-demo-v2
+J004,Paver Patio 004,RI,Warwick,Paver Patio,625,104.9,4,1,Low,7.7,No,No,20,3,14389.33,0.25,Preconstruction,2026-07-15,2026-08-01,Yes,Yes,Confirmed,Pending,Confirmed,Yes,2026-07-demo-v2
+J005,Paver Patio 005,RI,Providence,Paver Patio,313,67.1,4,1,Medium,6.9,No,No,63,4,6776.74,0.25,Preconstruction,2026-07-15,2026-07-24,Yes,Yes,Not Required,Pending,Confirmed,Yes,2026-07-demo-v2
+J006,Paver Patio 006,MA,Boston,Paver Patio,577,94.5,4,1,Medium,5.5,Yes,Yes,54,4,19371.18,0.25,Preconstruction,2026-07-15,2026-08-05,Yes,No,Not Required,Not Required,Confirmed,Yes,2026-07-demo-v2
+J007,Paver Patio 007,MA,Boston,Paver Patio,695,97.1,4,1,Medium,4.2,No,No,74,3,20955.81,0.25,Preconstruction,2026-07-15,2026-07-31,Yes,Yes,Confirmed,Pending,Confirmed,Yes,2026-07-demo-v2
+J008,Paver Patio 008,MA,Newton,Paver Patio,262,68.4,4,1,High,7.1,No,No,48,4,7735.18,0.25,Preconstruction,2026-07-15,2026-07-16,Yes,Yes,Confirmed,Pending,Pending,Yes,2026-07-demo-v2
+J009,Paver Patio 009,MA,Framingham,Paver Patio,332,75.2,6,1,Low,8.8,No,Yes,49,2,9312.52,0.25,Preconstruction,2026-07-15,2026-07-27,Yes,Yes,Not Required,Not Required,Confirmed,No,2026-07-demo-v2
+J010,Paver Patio 010,MA,Quincy,Paver Patio,201,55.6,6,1,Medium,5.2,No,Yes,90,2,4426.35,0.25,Preconstruction,2026-07-15,2026-07-26,Yes,Yes,Confirmed,Not Required,Pending,Yes,2026-07-demo-v2
+J011,Paver Patio 011,RI,Warwick,Paver Patio,690,100.9,6,1,Medium,5.6,Yes,No,59,4,16826.6,0.25,Preconstruction,2026-07-15,2026-07-21,Yes,No,Confirmed,Approved,Confirmed,No,2026-07-demo-v2
+J012,Walkway 012,MA,Quincy,Walkway,164,61.0,6,1,Low,3.1,Yes,Yes,12,2,5888.11,0.25,Preconstruction,2026-07-15,2026-07-30,Yes,Yes,Confirmed,Not Required,Confirmed,Yes,2026-07-demo-v2
+J013,Walkway 013,MA,Boston,Walkway,113,42.1,4,1,Low,7.6,No,Yes,134,2,3542.4,0.25,Preconstruction,2026-07-15,2026-08-04,Yes,Yes,Confirmed,Pending,Pending,Yes,2026-07-demo-v2
+J014,Paver Patio 014,RI,Pawtucket,Paver Patio,639,113.7,4,1,Low,8.8,No,Yes,53,3,17761.8,0.25,Preconstruction,2026-07-15,2026-07-27,Yes,Yes,Confirmed,Pending,Confirmed,No,2026-07-demo-v2
+J015,Paver Patio 015,MA,Boston,Paver Patio,321,79.6,6,1,Low,3.5,No,Yes,34,3,7835.09,0.25,Preconstruction,2026-07-15,2026-08-02,No,Yes,Confirmed,Approved,Confirmed,Yes,2026-07-demo-v2
+J016,Paver Patio 016,MA,Quincy,Paver Patio,279,70.6,6,1,Low,5.2,No,No,113,2,5968.59,0.25,Preconstruction,2026-07-15,2026-08-02,Yes,Yes,Pending,Pending,Confirmed,Yes,2026-07-demo-v2
+J017,Walkway 017,MA,Worcester,Walkway,107,35.9,8,1,Low,8.9,No,No,51,3,3207.51,0.25,Preconstruction,2026-07-15,2026-08-01,Yes,Yes,Pending,Not Required,Pending,Yes,2026-07-demo-v2
+J018,Paver Patio 018,MA,Newton,Paver Patio,545,83.9,6,1,Low,4.6,No,No,105,3,15361.29,0.25,Preconstruction,2026-07-15,2026-07-22,Yes,No,Not Required,Pending,Confirmed,Yes,2026-07-demo-v2
+J019,Walkway 019,RI,Cranston,Walkway,256,66.3,6,1,Low,8.1,Yes,No,75,2,7736.38,0.25,Preconstruction,2026-07-15,2026-08-03,Yes,Yes,Confirmed,Not Required,Confirmed,No,2026-07-demo-v2
+J020,Walkway 020,RI,Cranston,Walkway,240,69.9,8,1,Low,7.1,Yes,No,31,3,5322.24,0.25,Preconstruction,2026-07-15,2026-07-19,Yes,Yes,Not Required,Not Required,Confirmed,Yes,2026-07-demo-v2
+J021,Paver Patio 021,RI,Newport,Paver Patio,248,55.5,6,1,Low,8.4,No,Yes,105,3,5511.46,0.25,Preconstruction,2026-07-15,2026-08-03,Yes,Yes,Confirmed,Approved,Pending,Yes,2026-07-demo-v2
+J022,Paver Patio 022,MA,Weymouth,Paver Patio,596,115.0,6,1,Low,5.6,No,No,120,2,16470.88,0.25,Preconstruction,2026-07-15,2026-08-04,Yes,Yes,Pending,Not Required,Confirmed,Yes,2026-07-demo-v2
+J023,Paver Patio 023,RI,Cranston,Paver Patio,348,75.0,4,1,High,8.5,Yes,No,15,2,11700.26,0.25,Preconstruction,2026-07-15,2026-08-03,Yes,No,Pending,Not Required,Confirmed,No,2026-07-demo-v2
+J024,Paver Patio 024,MA,Quincy,Paver Patio,317,79.9,4,1,High,7.6,Yes,Yes,30,3,12061.59,0.25,Preconstruction,2026-07-15,2026-07-17,Yes,No,Confirmed,Not Required,Pending,Yes,2026-07-demo-v2
+J025,Paver Patio 025,MA,Framingham,Paver Patio,658,94.5,4,1,Low,8.2,No,No,68,3,14147.33,0.25,Preconstruction,2026-07-15,2026-07-19,Yes,Yes,Not Required,Not Required,Confirmed,Yes,2026-07-demo-v2
+J026,Paver Patio 026,MA,Quincy,Paver Patio,684,95.3,4,1,Low,9.9,No,No,43,3,14400.55,0.25,Preconstruction,2026-07-15,2026-07-29,No,Yes,Pending,Not Required,Confirmed,No,2026-07-demo-v2
+J027,Paver Patio 027,MA,Boston,Paver Patio,470,88.1,4,1,Low,4.9,No,No,112,3,11949.86,0.25,Preconstruction,2026-07-15,2026-07-28,Yes,Yes,Pending,Approved,Confirmed,Yes,2026-07-demo-v2
+J028,Paver Patio 028,MA,Quincy,Paver Patio,308,73.6,6,1,Medium,7.6,No,No,54,3,8653.17,0.25,Preconstruction,2026-07-15,2026-07-27,Yes,Yes,Not Required,Not Required,Pending,Yes,2026-07-demo-v2
+J029,Paver Patio 029,MA,Quincy,Paver Patio,636,115.3,6,1,Low,3.5,No,Yes,20,3,15724.21,0.25,Preconstruction,2026-07-15,2026-07-21,Yes,Yes,Confirmed,Not Required,Pending,Yes,2026-07-demo-v2
+J030,Paver Patio 030,MA,Quincy,Paver Patio,523,89.4,8,1,High,8.4,No,No,28,3,11907.73,0.25,Preconstruction,2026-07-15,2026-07-30,Yes,Yes,Pending,Approved,Confirmed,Yes,2026-07-demo-v2
+J031,Walkway 031,RI,Newport,Walkway,230,72.6,4,1,Low,5.7,Yes,No,15,3,5768.09,0.25,Preconstruction,2026-07-15,2026-07-25,Yes,No,Confirmed,Approved,Confirmed,Yes,2026-07-demo-v2
+J032,Paver Patio 032,MA,Framingham,Paver Patio,461,80.3,6,1,Medium,7.5,No,No,89,3,12542.43,0.25,Preconstruction,2026-07-15,2026-07-17,Yes,No,Confirmed,Not Required,Pending,Yes,2026-07-demo-v2
+J033,Walkway 033,RI,Warwick,Walkway,239,59.9,6,1,Low,3.7,No,No,91,2,6374.44,0.25,Preconstruction,2026-07-15,2026-07-29,Yes,Yes,Not Required,Pending,Confirmed,Yes,2026-07-demo-v2
+J034,Paver Patio 034,MA,Braintree,Paver Patio,338,78.8,8,1,Medium,6.3,No,No,76,4,10037.2,0.25,Preconstruction,2026-07-15,2026-07-31,No,Yes,Not Required,Pending,Confirmed,Yes,2026-07-demo-v2
+J035,Paver Patio 035,RI,Providence,Paver Patio,742,120.6,6,1,Low,3.9,Yes,No,135,4,19487.66,0.25,Preconstruction,2026-07-15,2026-07-26,No,Yes,Not Required,Approved,Confirmed,Yes,2026-07-demo-v2
+J036,Paver Patio 036,RI,Cranston,Paver Patio,649,99.9,4,1,Low,7.7,No,No,11,3,16328.54,0.25,Preconstruction,2026-07-15,2026-08-03,Yes,Yes,Pending,Not Required,Confirmed,Yes,2026-07-demo-v2
+J037,Paver Patio 037,MA,Boston,Paver Patio,196,65.2,6,1,Low,9.0,No,No,127,3,4587.01,0.25,Preconstruction,2026-07-15,2026-07-22,Yes,No,Confirmed,Approved,Confirmed,Yes,2026-07-demo-v2
+J038,Paver Patio 038,RI,Cranston,Paver Patio,750,108.8,4,1,Medium,10.0,No,No,17,4,18590.02,0.25,Preconstruction,2026-07-15,2026-07-24,Yes,Yes,Confirmed,Approved,Confirmed,Yes,2026-07-demo-v2
+J039,Paver Patio 039,MA,Worcester,Paver Patio,376,92.0,6,1,Low,5.0,No,Yes,82,4,10006.0,0.25,Preconstruction,2026-07-15,2026-07-22,Yes,Yes,Pending,Approved,Confirmed,Yes,2026-07-demo-v2
+J040,Paver Patio 040,MA,Braintree,Paver Patio,679,109.1,6,1,Medium,6.1,No,No,86,4,13938.95,0.25,Preconstruction,2026-07-15,2026-07-30,Yes,Yes,Pending,Approved,Confirmed,No,2026-07-demo-v2
+J041,Paver Patio 041,MA,Worcester,Paver Patio,427,98.0,4,1,Low,4.7,Yes,No,44,3,10165.24,0.25,Preconstruction,2026-07-15,2026-07-26,Yes,Yes,Confirmed,Not Required,Confirmed,Yes,2026-07-demo-v2
+J042,Paver Patio 042,MA,Quincy,Paver Patio,417,72.6,8,1,Low,6.6,No,Yes,63,3,12406.81,0.25,Preconstruction,2026-07-15,2026-07-25,Yes,Yes,Confirmed,Pending,Confirmed,Yes,2026-07-demo-v2
+J043,Paver Patio 043,MA,Quincy,Paver Patio,711,107.9,6,1,Low,3.3,Yes,No,21,2,16772.14,0.25,Preconstruction,2026-07-15,2026-07-16,Yes,Yes,Confirmed,Not Required,Confirmed,No,2026-07-demo-v2
+J044,Paver Patio 044,MA,Quincy,Paver Patio,667,93.7,6,1,Medium,4.8,No,No,135,4,18159.65,0.25,Preconstruction,2026-07-15,2026-07-28,Yes,Yes,Not Required,Not Required,Confirmed,Yes,2026-07-demo-v2
+J045,Paver Patio 045,MA,Framingham,Paver Patio,224,58.1,4,1,Low,8.1,No,No,117,4,5653.84,0.25,Preconstruction,2026-07-15,2026-07-22,Yes,Yes,Pending,Approved,Confirmed,No,2026-07-demo-v2
+J046,Walkway 046,MA,Worcester,Walkway,84,38.7,4,1,High,9.2,No,No,33,2,3018.56,0.25,Preconstruction,2026-07-15,2026-07-21,Yes,Yes,Not Required,Approved,Confirmed,Yes,2026-07-demo-v2
+J047,Paver Patio 047,RI,Newport,Paver Patio,324,75.1,6,1,Medium,8.1,No,No,103,3,8085.29,0.25,Preconstruction,2026-07-15,2026-08-05,Yes,Yes,Pending,Pending,Confirmed,No,2026-07-demo-v2
+J048,Paver Patio 048,MA,Quincy,Paver Patio,569,113.2,4,1,Low,9.0,No,Yes,54,3,17142.29,0.25,Preconstruction,2026-07-15,2026-07-25,Yes,Yes,Not Required,Not Required,Pending,Yes,2026-07-demo-v2
+J049,Walkway 049,MA,Framingham,Walkway,324,81.3,4,1,Low,8.2,Yes,No,138,3,11634.63,0.25,Preconstruction,2026-07-15,2026-07-23,Yes,Yes,Pending,Not Required,Confirmed,Yes,2026-07-demo-v2
+J050,Paver Patio 050,RI,Cranston,Paver Patio,447,83.0,6,1,Low,4.1,No,Yes,13,2,8960.03,0.25,Preconstruction,2026-07-15,2026-08-05,Yes,No,Confirmed,Approved,Confirmed,Yes,2026-07-demo-v2
+J051,Paver Patio 051,MA,Boston,Paver Patio,328,73.8,8,1,Medium,6.5,Yes,Yes,27,3,11705.12,0.25,Preconstruction,2026-07-15,2026-07-22,No,No,Not Required,Not Required,Confirmed,Yes,2026-07-demo-v2
+J052,Paver Patio 052,MA,Quincy,Paver Patio,495,102.0,6,1,Low,4.2,Yes,Yes,23,3,16564.75,0.25,Preconstruction,2026-07-15,2026-08-02,Yes,Yes,Confirmed,Not Required,Confirmed,Yes,2026-07-demo-v2
+J053,Walkway 053,RI,Cranston,Walkway,112,37.5,4,1,Medium,4.3,No,No,34,3,3946.49,0.25,Preconstruction,2026-07-15,2026-07-21,No,Yes,Pending,Approved,Confirmed,Yes,2026-07-demo-v2
+J054,Walkway 054,RI,Providence,Walkway,320,73.8,6,1,Low,6.8,No,Yes,56,4,9033.59,0.25,Preconstruction,2026-07-15,2026-07-18,No,Yes,Pending,Approved,Confirmed,Yes,2026-07-demo-v2
+J055,Paver Patio 055,MA,Quincy,Paver Patio,703,112.7,6,1,Low,6.7,Yes,No,28,3,18615.87,0.25,Preconstruction,2026-07-15,2026-08-02,Yes,No,Confirmed,Approved,Confirmed,Yes,2026-07-demo-v2
+J056,Walkway 056,MA,Weymouth,Walkway,283,62.2,8,1,Low,7.5,Yes,No,46,2,8707.44,0.25,Preconstruction,2026-07-15,2026-07-21,Yes,Yes,Pending,Pending,Pending,Yes,2026-07-demo-v2
+J057,Paver Patio 057,RI,Pawtucket,Paver Patio,443,89.2,6,1,High,5.4,Yes,No,138,2,12937.71,0.25,Preconstruction,2026-07-15,2026-08-02,No,Yes,Not Required,Not Required,Confirmed,Yes,2026-07-demo-v2
+J058,Walkway 058,RI,Pawtucket,Walkway,179,53.0,6,1,Medium,6.6,No,No,34,3,5000.12,0.25,Preconstruction,2026-07-15,2026-07-29,Yes,Yes,Confirmed,Not Required,Confirmed,Yes,2026-07-demo-v2
+J059,Paver Patio 059,MA,Worcester,Paver Patio,366,85.9,8,1,Low,7.7,Yes,Yes,109,2,11226.85,0.25,Preconstruction,2026-07-15,2026-07-18,No,Yes,Pending,Not Required,Pending,Yes,2026-07-demo-v2
+J060,Paver Patio 060,MA,Braintree,Paver Patio,537,110.5,6,1,Medium,3.2,No,No,135,3,11825.62,0.25,Preconstruction,2026-07-15,2026-07-28,Yes,Yes,Pending,Pending,Confirmed,Yes,2026-07-demo-v2

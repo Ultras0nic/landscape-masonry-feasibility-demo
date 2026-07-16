@@ -1,0 +1,51 @@
+job_id,state,city,job_type,site_risk_points,risk_category,drainage_concern,demo_required,access_width_ft,carry_distance_ft,estimated_total_cost,actual_total_cost,cost_variance,change_order_flag
+J035,RI,Providence,Paver Patio,73,High Risk,Yes,No,3.9,135.0,13111.38,15701.63,2590.25,Yes
+J006,MA,Boston,Paver Patio,59,Needs Review,Yes,Yes,5.5,54.0,10772.53,12704.45,1931.92,Yes
+J043,MA,Quincy,Paver Patio,65,High Risk,Yes,No,3.3,21.0,13512.48,15358.79,1846.31,Yes
+J044,MA,Quincy,Paver Patio,55,Needs Review,No,No,4.8,135.0,12094.98,13794.36,1699.38,No
+J057,RI,Pawtucket,Paver Patio,88,High Risk,Yes,No,5.4,138.0,8596.52,9959.0,1362.48,No
+J011,RI,Warwick,Paver Patio,57,Needs Review,Yes,No,5.6,59.0,11720.97,12883.08,1162.11,Yes
+J023,RI,Cranston,Paver Patio,45,Needs Review,Yes,No,8.5,15.0,6225.78,7171.75,945.97,No
+J029,MA,Quincy,Paver Patio,47,Needs Review,No,Yes,3.5,20.0,11785.38,12679.73,894.35,No
+J050,RI,Cranston,Paver Patio,37,Needs Review,No,Yes,4.1,13.0,7724.79,8519.04,794.25,No
+J015,MA,Boston,Paver Patio,37,Needs Review,No,Yes,3.5,34.0,6040.48,6694.99,654.51,No
+J018,MA,Newton,Paver Patio,33,Needs Review,No,No,4.6,105.0,9742.22,10387.86,645.64,No
+J040,MA,Braintree,Paver Patio,32,Needs Review,No,No,6.1,86.0,11736.39,12380.06,643.67,No
+J030,MA,Quincy,Paver Patio,25,Low Risk,No,No,8.4,28.0,9477.64,10119.11,641.47,No
+J024,MA,Quincy,Paver Patio,57,Needs Review,Yes,Yes,7.6,30.0,6306.77,6944.03,637.26,No
+J012,MA,Quincy,Walkway,57,Needs Review,Yes,Yes,3.1,12.0,3748.42,4361.57,613.15,Yes
+J051,MA,Boston,Paver Patio,44,Needs Review,Yes,Yes,6.5,27.0,6378.67,6961.27,582.6,Yes
+J025,MA,Framingham,Paver Patio,20,Low Risk,No,No,8.2,68.0,10916.76,11486.07,569.31,Yes
+J022,MA,Weymouth,Paver Patio,43,Needs Review,No,No,5.6,120.0,11075.6,11615.47,539.87,No
+J007,MA,Boston,Paver Patio,47,Needs Review,No,No,4.2,74.0,12177.46,12691.46,514.0,No
+J014,RI,Pawtucket,Paver Patio,22,Low Risk,No,Yes,8.8,53.0,10186.66,10680.58,493.92,No
+J016,MA,Quincy,Paver Patio,33,Needs Review,No,No,5.2,113.0,5381.65,5859.57,477.92,No
+J060,MA,Braintree,Paver Patio,55,Needs Review,No,No,3.2,135.0,10412.83,10831.89,419.06,No
+J001,RI,Pawtucket,Walkway,55,Needs Review,No,Yes,8.3,119.0,4036.07,4449.17,413.1,No
+J033,RI,Warwick,Walkway,35,Needs Review,No,No,3.7,91.0,4648.21,5047.68,399.47,No
+J028,MA,Quincy,Paver Patio,12,Low Risk,No,No,7.6,54.0,5420.34,5817.72,397.38,No
+J054,RI,Providence,Walkway,12,Low Risk,No,Yes,6.8,56.0,5647.3,6044.02,396.72,No
+J047,RI,Newport,Paver Patio,30,Low Risk,No,No,8.1,103.0,5517.84,5912.8,394.96,No
+J004,RI,Warwick,Paver Patio,10,Low Risk,No,No,7.7,20.0,9323.96,9712.86,388.9,No
+J027,MA,Boston,Paver Patio,33,Needs Review,No,No,4.9,112.0,8350.32,8735.82,385.5,No
+J042,MA,Quincy,Paver Patio,22,Low Risk,No,Yes,6.6,63.0,7748.87,8120.96,372.09,No
+J045,MA,Framingham,Paver Patio,18,Low Risk,No,No,8.1,117.0,3859.22,4218.86,359.64,No
+J052,MA,Quincy,Paver Patio,47,Needs Review,Yes,Yes,4.2,23.0,9372.53,9731.28,358.75,No
+J041,MA,Worcester,Paver Patio,35,Needs Review,Yes,No,4.7,44.0,7681.41,8017.91,336.5,Yes
+J021,RI,Newport,Paver Patio,30,Low Risk,No,Yes,8.4,105.0,4363.58,4680.2,316.62,No
+J056,MA,Weymouth,Walkway,20,Low Risk,Yes,No,7.5,46.0,5712.03,6024.96,312.93,No
+J039,MA,Worcester,Paver Patio,37,Needs Review,No,Yes,5.0,82.0,7006.3,7306.58,300.28,No
+J010,MA,Quincy,Paver Patio,49,Needs Review,No,Yes,5.2,90.0,4047.63,4346.73,299.1,No
+J008,MA,Newton,Paver Patio,25,Low Risk,No,No,7.1,48.0,4724.53,5009.79,285.26,No
+J049,MA,Framingham,Walkway,38,Needs Review,Yes,No,8.2,138.0,6571.7,6826.83,255.13,No
+J013,MA,Boston,Walkway,30,Low Risk,No,Yes,7.6,134.0,2532.1,2748.09,215.99,No
+J020,RI,Cranston,Walkway,20,Low Risk,Yes,No,7.1,31.0,4471.19,4655.2,184.01,No
+J005,RI,Providence,Paver Patio,22,Low Risk,No,No,6.9,63.0,5077.03,5239.57,162.54,No
+J002,RI,Warwick,Walkway,55,Needs Review,Yes,No,8.4,74.0,5199.79,5359.94,160.15,No
+J059,MA,Worcester,Paver Patio,60,Needs Review,Yes,Yes,7.7,109.0,7583.7,7743.16,159.46,No
+J038,RI,Cranston,Paver Patio,22,Low Risk,No,No,10.0,17.0,11357.02,11507.5,150.48,No
+J037,MA,Boston,Paver Patio,18,Low Risk,No,No,9.0,127.0,3546.55,3693.25,146.7,No
+J046,MA,Worcester,Walkway,25,Low Risk,No,No,9.2,33.0,1765.98,1905.61,139.63,No
+J048,MA,Quincy,Paver Patio,12,Low Risk,No,Yes,9.0,54.0,9716.19,9835.34,119.15,No
+J031,RI,Newport,Walkway,35,Needs Review,Yes,No,5.7,15.0,4272.76,4334.54,61.78,No
+J017,MA,Worcester,Walkway,0,Low Risk,No,No,8.9,51.0,2089.22,2096.26,7.04,No

@@ -1,69 +1,67 @@
-# Dashboard Mockup
+# Dashboard Specification
 
-## Dashboard Purpose
+The dashboard separates current preconstruction work from retrospective learning. Actual cost fields never appear in the preconstruction view.
 
-This dashboard helps a landscape/masonry work lead review whether jobs are workable, risky, underpriced, or likely to require extra review before field execution.
+## 1. Field Look-Ahead
 
-The dashboard is based on synthetic data and simplified estimating assumptions.
+**Audience:** Project Manager, Operations Manager, Foreman / Crew Lead
+**Source:** `outputs/preconstruction_action_log.csv`
 
-## Page 1: Job Feasibility Overview
+Default filters:
 
-### KPI Cards
+- Status is not Done
+- Look-ahead bucket is Due / Overdue or Next 7 Days
+- My jobs / responsible role
 
-- Total jobs reviewed
-- Jobs requiring site review
-- Jobs below target margin
-- Average estimated margin
-- Average risk score
-- Change order rate
+Default columns:
 
-### Visuals
+`Priority | Job | Blocker | Next Action | Responsible Role | Assignee | Needed By | Status`
 
-- Workability status count
-- Risk category count
-- Estimated margin distribution
-- Jobs requiring review table
+KPI cards:
 
-## Page 2: Estimate Breakdown
+- Blocking actions
+- Due / overdue actions
+- Next-seven-day actions
+- Unassigned actions
+- Stale open actions
 
-### Visuals
+Interaction: selecting a job shows all concurrent constraints rather than only one primary reason.
 
-- Quoted price vs estimated total cost
-- Estimated material cost by job
-- Estimated labor cost by job
-- Estimated equipment cost by job
-- Estimated margin by job
+## 2. Estimator Review
 
-## Page 3: Field Risk Review
+**Audience:** Estimator / Owner
+**Source:** `outputs/estimator_review.csv`
 
-### Visuals
+Metrics:
 
-- Risk score by job
-- Risk score by state
-- Risk score by job type
-- Access width vs estimated labor hours
-- Drainage concern vs cost overrun
-- Demo required vs cost overrun
+- Quote and estimated total cost
+- Material, labor, and equipment cost
+- Estimated labor hours and duration
+- Estimated margin, target margin, and margin gap
+- Site-risk points and component detail
+- Review status and planned start
 
-## Page 4: Estimate vs Actual
+The view should let the estimator inspect and challenge assumptions. It is decision support, not automatic approval.
 
-### Visuals
+## 3. Post-Job Learning
 
-- Estimated cost vs actual cost
-- Estimated margin vs actual margin
-- Cost variance by job
-- Labor hour variance by job
-- Change order flag by risk category
+**Audience:** Operations Analyst / Manager
+**Source:** `outputs/post_job_variance_review.csv`
 
-## Page 5: State Assumption Review
+Metrics:
 
-### Visuals
+- Estimated vs actual total cost
+- Estimated vs actual labor hours
+- Estimated vs actual margin
+- Change-event count and cost
+- Variance by job type and scenario factor
 
-- MA vs RI average estimated cost
-- MA vs RI average risk score
-- MA vs RI average margin
-- Material and labor cost assumption comparison
+Label all results as synthetic scenario behavior. Do not present them as predictive performance.
 
-## Business Use
+## Mobile design notes
 
-This dashboard does not replace field judgment. It supports pre-job review by highlighting jobs that may need closer inspection, quote adjustment, scheduling review, or change-order discussion.
+- Put the action before detailed metrics.
+- Use short blocker and next-action text.
+- Keep one tap from the summary to job detail.
+- Preserve filters between visits.
+- Show freshness and ownership so the list supports action, not only visibility.

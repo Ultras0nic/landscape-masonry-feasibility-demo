@@ -1,0 +1,11 @@
+job_id,state,city,job_type,quoted_price,estimated_total_cost,estimated_margin_pct,site_risk_points,risk_category,workability_status
+J057,RI,Pawtucket,Paver Patio,12937.71,8596.52,0.336,88,High Risk,Site Review Required
+J035,RI,Providence,Paver Patio,19487.66,13111.38,0.327,73,High Risk,Review Before Approval
+J043,MA,Quincy,Paver Patio,16772.14,13512.48,0.194,65,High Risk,Review Before Approval
+J059,MA,Worcester,Paver Patio,11226.85,7583.7,0.325,60,Needs Review,Review Before Approval
+J060,MA,Braintree,Paver Patio,11825.62,10412.83,0.119,55,Needs Review,Review Before Approval
+J010,MA,Quincy,Paver Patio,4426.35,4047.63,0.086,49,Needs Review,Review Before Approval
+J050,RI,Cranston,Paver Patio,8960.03,7724.79,0.138,37,Needs Review,Review Before Approval
+J016,MA,Quincy,Paver Patio,5968.59,5381.65,0.098,33,Needs Review,Review Before Approval
+J040,MA,Braintree,Paver Patio,13938.95,11736.39,0.158,32,Needs Review,Review Before Approval
+J020,RI,Cranston,Walkway,5322.24,4471.19,0.16,20,Low Risk,Review Before Approval

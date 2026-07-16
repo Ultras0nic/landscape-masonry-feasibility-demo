@@ -1,0 +1,226 @@
+priority,job_id,job_name,site,blocker,next_action,responsible_role,assignee,needed_by,status,lookahead_bucket,escalation_flag,blocking_flag
+High,J002,Walkway 002,"Warwick, RI",Site access and staging are not verified,"Verify access, staging, and equipment path",Project Manager,Unassigned,2026-07-14,Open,Due / Overdue,Yes,Yes
+High,J002,Walkway 002,"Warwick, RI",High slope requires additional review,Complete site review before approval,Project Manager,Unassigned,2026-07-14,Open,Due / Overdue,Yes,No
+High,J002,Walkway 002,"Warwick, RI",Drainage concern is unresolved,Confirm drainage approach before scheduling,Project Manager,Unassigned,2026-07-14,Open,Due / Overdue,Yes,No
+High,J008,Paver Patio 008,"Newton, MA",Permit or inspection status is pending,Resolve permit and inspection requirement,Operations Manager,Unassigned,2026-07-14,Open,Due / Overdue,Yes,Yes
+High,J008,Paver Patio 008,"Newton, MA",Materials are not confirmed,"Confirm selection, availability, and delivery",Estimator / Owner,Unassigned,2026-07-14,Open,Due / Overdue,Yes,Yes
+High,J008,Paver Patio 008,"Newton, MA",High slope requires additional review,Complete site review before approval,Project Manager,Unassigned,2026-07-14,Open,Due / Overdue,Yes,No
+High,J043,Paver Patio 043,"Quincy, MA",Crew is not assigned,Assign crew and required equipment,Operations Manager,Unassigned,2026-07-14,Open,Due / Overdue,Yes,Yes
+High,J043,Paver Patio 043,"Quincy, MA",Very narrow site access,Confirm equipment path and material staging,Foreman / Crew Lead,Unassigned,2026-07-14,Open,Due / Overdue,Yes,No
+High,J043,Paver Patio 043,"Quincy, MA",Drainage concern is unresolved,Confirm drainage approach before scheduling,Project Manager,Unassigned,2026-07-14,Open,Due / Overdue,Yes,No
+High,J043,Paver Patio 043,"Quincy, MA",Crew may be small for the job size,Review crew plan and production assumption,Operations Manager,Unassigned,2026-07-14,Open,Due / Overdue,Yes,No
+High,J024,Paver Patio 024,"Quincy, MA",Site access and staging are not verified,"Verify access, staging, and equipment path",Project Manager,Unassigned,2026-07-15,Open,Due / Overdue,Yes,Yes
+High,J024,Paver Patio 024,"Quincy, MA",Materials are not confirmed,"Confirm selection, availability, and delivery",Estimator / Owner,Unassigned,2026-07-15,Open,Due / Overdue,Yes,Yes
+High,J024,Paver Patio 024,"Quincy, MA",High slope requires additional review,Complete site review before approval,Project Manager,Unassigned,2026-07-15,Open,Due / Overdue,Yes,No
+High,J024,Paver Patio 024,"Quincy, MA",Drainage concern is unresolved,Confirm drainage approach before scheduling,Project Manager,Unassigned,2026-07-15,Open,Due / Overdue,Yes,No
+High,J032,Paver Patio 032,"Framingham, MA",Site access and staging are not verified,"Verify access, staging, and equipment path",Project Manager,Unassigned,2026-07-15,Open,Due / Overdue,Yes,Yes
+High,J032,Paver Patio 032,"Framingham, MA",Materials are not confirmed,"Confirm selection, availability, and delivery",Estimator / Owner,Unassigned,2026-07-15,Open,Due / Overdue,Yes,Yes
+High,J054,Walkway 054,"Providence, RI",Scope is not approved,Confirm approved scope before mobilization,Estimator / Owner,Unassigned,2026-07-16,Open,Next 7 Days,Yes,Yes
+High,J054,Walkway 054,"Providence, RI",Utility locate is pending,Confirm utility locate before excavation,Project Manager,Unassigned,2026-07-16,Open,Next 7 Days,Yes,Yes
+High,J059,Paver Patio 059,"Worcester, MA",Scope is not approved,Confirm approved scope before mobilization,Estimator / Owner,Unassigned,2026-07-16,Open,Next 7 Days,Yes,Yes
+High,J059,Paver Patio 059,"Worcester, MA",Utility locate is pending,Confirm utility locate before excavation,Project Manager,Unassigned,2026-07-16,Open,Next 7 Days,Yes,Yes
+High,J059,Paver Patio 059,"Worcester, MA",Materials are not confirmed,"Confirm selection, availability, and delivery",Estimator / Owner,Unassigned,2026-07-16,Open,Next 7 Days,Yes,Yes
+High,J059,Paver Patio 059,"Worcester, MA",Drainage concern is unresolved,Confirm drainage approach before scheduling,Project Manager,Unassigned,2026-07-16,Open,Next 7 Days,Yes,No
+High,J059,Paver Patio 059,"Worcester, MA",Very long material carry may affect labor,Review labor and staging plan,Foreman / Crew Lead,Unassigned,2026-07-16,Open,Next 7 Days,Yes,No
+High,J059,Paver Patio 059,"Worcester, MA",Crew may be small for the job size,Review crew plan and production assumption,Operations Manager,Unassigned,2026-07-16,Open,Next 7 Days,Yes,No
+High,J020,Walkway 020,"Cranston, RI",Drainage concern is unresolved,Confirm drainage approach before scheduling,Project Manager,Unassigned,2026-07-17,Open,Next 7 Days,Yes,No
+High,J011,Paver Patio 011,"Warwick, RI",Site access and staging are not verified,"Verify access, staging, and equipment path",Project Manager,Unassigned,2026-07-19,Open,Next 7 Days,Yes,Yes
+High,J011,Paver Patio 011,"Warwick, RI",Crew is not assigned,Assign crew and required equipment,Operations Manager,Unassigned,2026-07-19,Open,Next 7 Days,Yes,Yes
+High,J011,Paver Patio 011,"Warwick, RI",Drainage concern is unresolved,Confirm drainage approach before scheduling,Project Manager,Unassigned,2026-07-19,Open,Next 7 Days,Yes,No
+High,J029,Paver Patio 029,"Quincy, MA",Materials are not confirmed,"Confirm selection, availability, and delivery",Estimator / Owner,Unassigned,2026-07-19,Open,Next 7 Days,Yes,Yes
+High,J029,Paver Patio 029,"Quincy, MA",Very narrow site access,Confirm equipment path and material staging,Foreman / Crew Lead,Unassigned,2026-07-19,Open,Next 7 Days,Yes,No
+High,J046,Walkway 046,"Worcester, MA",High slope requires additional review,Complete site review before approval,Project Manager,Unassigned,2026-07-19,Open,Next 7 Days,Yes,No
+High,J053,Walkway 053,"Cranston, RI",Scope is not approved,Confirm approved scope before mobilization,Estimator / Owner,Unassigned,2026-07-19,Open,Next 7 Days,Yes,Yes
+High,J053,Walkway 053,"Cranston, RI",Utility locate is pending,Confirm utility locate before excavation,Project Manager,Unassigned,2026-07-19,Open,Next 7 Days,Yes,Yes
+High,J056,Walkway 056,"Weymouth, MA",Utility locate is pending,Confirm utility locate before excavation,Project Manager,Unassigned,2026-07-19,Open,Next 7 Days,Yes,Yes
+High,J056,Walkway 056,"Weymouth, MA",Permit or inspection status is pending,Resolve permit and inspection requirement,Operations Manager,Unassigned,2026-07-19,Open,Next 7 Days,Yes,Yes
+High,J056,Walkway 056,"Weymouth, MA",Materials are not confirmed,"Confirm selection, availability, and delivery",Estimator / Owner,Unassigned,2026-07-19,Open,Next 7 Days,Yes,Yes
+High,J056,Walkway 056,"Weymouth, MA",Drainage concern is unresolved,Confirm drainage approach before scheduling,Project Manager,Unassigned,2026-07-19,Open,Next 7 Days,Yes,No
+High,J018,Paver Patio 018,"Newton, MA",Site access and staging are not verified,"Verify access, staging, and equipment path",Project Manager,Unassigned,2026-07-20,Open,Next 7 Days,Yes,Yes
+High,J018,Paver Patio 018,"Newton, MA",Permit or inspection status is pending,Resolve permit and inspection requirement,Operations Manager,Unassigned,2026-07-20,Open,Next 7 Days,Yes,Yes
+High,J018,Paver Patio 018,"Newton, MA",Very long material carry may affect labor,Review labor and staging plan,Foreman / Crew Lead,Unassigned,2026-07-20,Open,Next 7 Days,Yes,No
+High,J037,Paver Patio 037,"Boston, MA",Site access and staging are not verified,"Verify access, staging, and equipment path",Project Manager,Unassigned,2026-07-20,Open,Next 7 Days,Yes,Yes
+High,J037,Paver Patio 037,"Boston, MA",Very long material carry may affect labor,Review labor and staging plan,Foreman / Crew Lead,Unassigned,2026-07-20,Open,Next 7 Days,Yes,No
+High,J039,Paver Patio 039,"Worcester, MA",Utility locate is pending,Confirm utility locate before excavation,Project Manager,Unassigned,2026-07-20,Open,Next 7 Days,Yes,Yes
+High,J045,Paver Patio 045,"Framingham, MA",Utility locate is pending,Confirm utility locate before excavation,Project Manager,Unassigned,2026-07-20,Open,Next 7 Days,Yes,Yes
+High,J045,Paver Patio 045,"Framingham, MA",Crew is not assigned,Assign crew and required equipment,Operations Manager,Unassigned,2026-07-20,Open,Next 7 Days,Yes,Yes
+High,J045,Paver Patio 045,"Framingham, MA",Very long material carry may affect labor,Review labor and staging plan,Foreman / Crew Lead,Unassigned,2026-07-20,Open,Next 7 Days,Yes,No
+High,J051,Paver Patio 051,"Boston, MA",Scope is not approved,Confirm approved scope before mobilization,Estimator / Owner,Unassigned,2026-07-20,Open,Next 7 Days,Yes,Yes
+High,J051,Paver Patio 051,"Boston, MA",Site access and staging are not verified,"Verify access, staging, and equipment path",Project Manager,Unassigned,2026-07-20,Open,Next 7 Days,Yes,Yes
+High,J051,Paver Patio 051,"Boston, MA",Drainage concern is unresolved,Confirm drainage approach before scheduling,Project Manager,Unassigned,2026-07-20,Open,Next 7 Days,Yes,No
+High,J049,Walkway 049,"Framingham, MA",Drainage concern is unresolved,Confirm drainage approach before scheduling,Project Manager,Unassigned,2026-07-21,Open,Next 7 Days,Yes,No
+High,J049,Walkway 049,"Framingham, MA",Very long material carry may affect labor,Review labor and staging plan,Foreman / Crew Lead,Unassigned,2026-07-21,Open,Next 7 Days,Yes,No
+High,J001,Walkway 001,"Pawtucket, RI",High slope requires additional review,Complete site review before approval,Project Manager,Unassigned,2026-07-23,Open,Later,Yes,No
+High,J001,Walkway 001,"Pawtucket, RI",Very long material carry may affect labor,Review labor and staging plan,Foreman / Crew Lead,Unassigned,2026-07-23,Open,Later,Yes,No
+High,J031,Walkway 031,"Newport, RI",Drainage concern is unresolved,Confirm drainage approach before scheduling,Project Manager,Unassigned,2026-07-23,Open,Later,Yes,No
+High,J010,Paver Patio 010,"Quincy, MA",Estimated margin is below target,"Review quote, scope, allowance, and cost assumptions",Estimator / Owner,Unassigned,2026-07-24,Open,Later,Yes,No
+High,J035,Paver Patio 035,"Providence, RI",Very narrow site access,Confirm equipment path and material staging,Foreman / Crew Lead,Unassigned,2026-07-24,Open,Later,Yes,No
+High,J035,Paver Patio 035,"Providence, RI",Drainage concern is unresolved,Confirm drainage approach before scheduling,Project Manager,Unassigned,2026-07-24,Open,Later,Yes,No
+High,J035,Paver Patio 035,"Providence, RI",Very long material carry may affect labor,Review labor and staging plan,Foreman / Crew Lead,Unassigned,2026-07-24,Open,Later,Yes,No
+High,J041,Paver Patio 041,"Worcester, MA",Drainage concern is unresolved,Confirm drainage approach before scheduling,Project Manager,Unassigned,2026-07-24,Open,Later,Yes,No
+High,J027,Paver Patio 027,"Boston, MA",Very long material carry may affect labor,Review labor and staging plan,Foreman / Crew Lead,Unassigned,2026-07-26,Open,Later,Yes,No
+High,J044,Paver Patio 044,"Quincy, MA",Very long material carry may affect labor,Review labor and staging plan,Foreman / Crew Lead,Unassigned,2026-07-26,Open,Later,Yes,No
+High,J060,Paver Patio 060,"Braintree, MA",Very narrow site access,Confirm equipment path and material staging,Foreman / Crew Lead,Unassigned,2026-07-26,Open,Later,Yes,No
+High,J060,Paver Patio 060,"Braintree, MA",Very long material carry may affect labor,Review labor and staging plan,Foreman / Crew Lead,Unassigned,2026-07-26,Open,Later,Yes,No
+High,J033,Walkway 033,"Warwick, RI",Very narrow site access,Confirm equipment path and material staging,Foreman / Crew Lead,Unassigned,2026-07-27,Open,Later,Yes,No
+High,J012,Walkway 012,"Quincy, MA",Very narrow site access,Confirm equipment path and material staging,Foreman / Crew Lead,Unassigned,2026-07-28,Open,Later,Yes,No
+High,J012,Walkway 012,"Quincy, MA",Drainage concern is unresolved,Confirm drainage approach before scheduling,Project Manager,Unassigned,2026-07-28,Open,Later,Yes,No
+High,J030,Paver Patio 030,"Quincy, MA",High slope requires additional review,Complete site review before approval,Project Manager,Unassigned,2026-07-28,Open,Later,Yes,No
+High,J015,Paver Patio 015,"Boston, MA",Very narrow site access,Confirm equipment path and material staging,Foreman / Crew Lead,Unassigned,2026-07-31,Open,Later,Yes,No
+High,J016,Paver Patio 016,"Quincy, MA",Estimated margin is below target,"Review quote, scope, allowance, and cost assumptions",Estimator / Owner,Unassigned,2026-07-31,Open,Later,Yes,No
+High,J016,Paver Patio 016,"Quincy, MA",Very long material carry may affect labor,Review labor and staging plan,Foreman / Crew Lead,Unassigned,2026-07-31,Open,Later,Yes,No
+High,J052,Paver Patio 052,"Quincy, MA",Drainage concern is unresolved,Confirm drainage approach before scheduling,Project Manager,Unassigned,2026-07-31,Open,Later,Yes,No
+High,J055,Paver Patio 055,"Quincy, MA",Drainage concern is unresolved,Confirm drainage approach before scheduling,Project Manager,Unassigned,2026-07-31,Open,Later,Yes,No
+High,J057,Paver Patio 057,"Pawtucket, RI",High slope requires additional review,Complete site review before approval,Project Manager,Unassigned,2026-07-31,Open,Later,Yes,No
+High,J057,Paver Patio 057,"Pawtucket, RI",Drainage concern is unresolved,Confirm drainage approach before scheduling,Project Manager,Unassigned,2026-07-31,Open,Later,Yes,No
+High,J057,Paver Patio 057,"Pawtucket, RI",Very long material carry may affect labor,Review labor and staging plan,Foreman / Crew Lead,Unassigned,2026-07-31,Open,Later,Yes,No
+High,J057,Paver Patio 057,"Pawtucket, RI",Crew may be small for the job size,Review crew plan and production assumption,Operations Manager,Unassigned,2026-07-31,Open,Later,Yes,No
+High,J019,Walkway 019,"Cranston, RI",Drainage concern is unresolved,Confirm drainage approach before scheduling,Project Manager,Unassigned,2026-08-01,Open,Later,Yes,No
+High,J021,Paver Patio 021,"Newport, RI",Very long material carry may affect labor,Review labor and staging plan,Foreman / Crew Lead,Unassigned,2026-08-01,Open,Later,Yes,No
+High,J023,Paver Patio 023,"Cranston, RI",High slope requires additional review,Complete site review before approval,Project Manager,Unassigned,2026-08-01,Open,Later,Yes,No
+High,J023,Paver Patio 023,"Cranston, RI",Drainage concern is unresolved,Confirm drainage approach before scheduling,Project Manager,Unassigned,2026-08-01,Open,Later,Yes,No
+High,J013,Walkway 013,"Boston, MA",Very long material carry may affect labor,Review labor and staging plan,Foreman / Crew Lead,Unassigned,2026-08-02,Open,Later,Yes,No
+High,J022,Paver Patio 022,"Weymouth, MA",Very long material carry may affect labor,Review labor and staging plan,Foreman / Crew Lead,Unassigned,2026-08-02,Open,Later,Yes,No
+High,J022,Paver Patio 022,"Weymouth, MA",Crew may be small for the job size,Review crew plan and production assumption,Operations Manager,Unassigned,2026-08-02,Open,Later,Yes,No
+High,J006,Paver Patio 006,"Boston, MA",Drainage concern is unresolved,Confirm drainage approach before scheduling,Project Manager,Unassigned,2026-08-03,Open,Later,Yes,No
+High,J047,Paver Patio 047,"Newport, RI",Very long material carry may affect labor,Review labor and staging plan,Foreman / Crew Lead,Unassigned,2026-08-03,Open,Later,Yes,No
+High,J050,Paver Patio 050,"Cranston, RI",Crew may be small for the job size,Review crew plan and production assumption,Operations Manager,Unassigned,2026-08-03,Open,Later,Yes,No
+Medium,J002,Walkway 002,"Warwick, RI",Long material carry may affect labor,Review labor and staging plan,Foreman / Crew Lead,Unassigned,2026-07-14,Open,Due / Overdue,No,No
+Medium,J043,Paver Patio 043,"Quincy, MA",Estimated margin is below target,"Review quote, scope, allowance, and cost assumptions",Estimator / Owner,Unassigned,2026-07-14,Open,Due / Overdue,No,No
+Medium,J043,Paver Patio 043,"Quincy, MA",Large job footprint needs production review,"Confirm crew, equipment, and duration assumptions",Operations Manager,Unassigned,2026-07-14,Open,Due / Overdue,No,No
+Medium,J024,Paver Patio 024,"Quincy, MA",Demolition scope must be confirmed,"Confirm demolition, disposal, and haul-off scope",Estimator / Owner,Unassigned,2026-07-15,Open,Due / Overdue,No,No
+Medium,J032,Paver Patio 032,"Framingham, MA",Medium slope may reduce productivity,Review grade and labor allowance in the field plan,Project Manager,Unassigned,2026-07-15,Open,Due / Overdue,No,No
+Medium,J032,Paver Patio 032,"Framingham, MA",Long material carry may affect labor,Review labor and staging plan,Foreman / Crew Lead,Unassigned,2026-07-15,Open,Due / Overdue,No,No
+Medium,J054,Walkway 054,"Providence, RI",Demolition scope must be confirmed,"Confirm demolition, disposal, and haul-off scope",Estimator / Owner,Unassigned,2026-07-16,Open,Next 7 Days,No,No
+Medium,J059,Paver Patio 059,"Worcester, MA",Demolition scope must be confirmed,"Confirm demolition, disposal, and haul-off scope",Estimator / Owner,Unassigned,2026-07-16,Open,Next 7 Days,No,No
+Medium,J020,Walkway 020,"Cranston, RI",Estimated margin is below target,"Review quote, scope, allowance, and cost assumptions",Estimator / Owner,Unassigned,2026-07-17,Open,Next 7 Days,No,No
+Medium,J025,Paver Patio 025,"Framingham, MA",Estimated margin is below target,"Review quote, scope, allowance, and cost assumptions",Estimator / Owner,Unassigned,2026-07-17,Open,Next 7 Days,No,No
+Medium,J025,Paver Patio 025,"Framingham, MA",Long material carry may affect labor,Review labor and staging plan,Foreman / Crew Lead,Unassigned,2026-07-17,Open,Next 7 Days,No,No
+Medium,J025,Paver Patio 025,"Framingham, MA",Large job footprint needs production review,"Confirm crew, equipment, and duration assumptions",Operations Manager,Unassigned,2026-07-17,Open,Next 7 Days,No,No
+Medium,J011,Paver Patio 011,"Warwick, RI",Narrow site access,Confirm equipment path and material staging,Foreman / Crew Lead,Unassigned,2026-07-19,Open,Next 7 Days,No,No
+Medium,J011,Paver Patio 011,"Warwick, RI",Medium slope may reduce productivity,Review grade and labor allowance in the field plan,Project Manager,Unassigned,2026-07-19,Open,Next 7 Days,No,No
+Medium,J011,Paver Patio 011,"Warwick, RI",Large job footprint needs production review,"Confirm crew, equipment, and duration assumptions",Operations Manager,Unassigned,2026-07-19,Open,Next 7 Days,No,No
+Medium,J029,Paver Patio 029,"Quincy, MA",Demolition scope must be confirmed,"Confirm demolition, disposal, and haul-off scope",Estimator / Owner,Unassigned,2026-07-19,Open,Next 7 Days,No,No
+Medium,J029,Paver Patio 029,"Quincy, MA",Large job footprint needs production review,"Confirm crew, equipment, and duration assumptions",Operations Manager,Unassigned,2026-07-19,Open,Next 7 Days,No,No
+Medium,J053,Walkway 053,"Cranston, RI",Narrow site access,Confirm equipment path and material staging,Foreman / Crew Lead,Unassigned,2026-07-19,Open,Next 7 Days,No,No
+Medium,J053,Walkway 053,"Cranston, RI",Medium slope may reduce productivity,Review grade and labor allowance in the field plan,Project Manager,Unassigned,2026-07-19,Open,Next 7 Days,No,No
+Medium,J018,Paver Patio 018,"Newton, MA",Narrow site access,Confirm equipment path and material staging,Foreman / Crew Lead,Unassigned,2026-07-20,Open,Next 7 Days,No,No
+Medium,J037,Paver Patio 037,"Boston, MA",Estimated margin is below target,"Review quote, scope, allowance, and cost assumptions",Estimator / Owner,Unassigned,2026-07-20,Open,Next 7 Days,No,No
+Medium,J039,Paver Patio 039,"Worcester, MA",Narrow site access,Confirm equipment path and material staging,Foreman / Crew Lead,Unassigned,2026-07-20,Open,Next 7 Days,No,No
+Medium,J039,Paver Patio 039,"Worcester, MA",Demolition scope must be confirmed,"Confirm demolition, disposal, and haul-off scope",Estimator / Owner,Unassigned,2026-07-20,Open,Next 7 Days,No,No
+Medium,J039,Paver Patio 039,"Worcester, MA",Long material carry may affect labor,Review labor and staging plan,Foreman / Crew Lead,Unassigned,2026-07-20,Open,Next 7 Days,No,No
+Medium,J051,Paver Patio 051,"Boston, MA",Medium slope may reduce productivity,Review grade and labor allowance in the field plan,Project Manager,Unassigned,2026-07-20,Open,Next 7 Days,No,No
+Medium,J051,Paver Patio 051,"Boston, MA",Demolition scope must be confirmed,"Confirm demolition, disposal, and haul-off scope",Estimator / Owner,Unassigned,2026-07-20,Open,Next 7 Days,No,No
+Medium,J049,Walkway 049,"Framingham, MA",Utility locate is pending,Confirm utility locate before excavation,Project Manager,Unassigned,2026-07-21,Open,Next 7 Days,No,Yes
+Medium,J005,Paver Patio 005,"Providence, RI",Permit or inspection status is pending,Resolve permit and inspection requirement,Operations Manager,Unassigned,2026-07-22,Open,Next 7 Days,No,Yes
+Medium,J001,Walkway 001,"Pawtucket, RI",Site access and staging are not verified,"Verify access, staging, and equipment path",Project Manager,Unassigned,2026-07-23,Open,Later,No,Yes
+Medium,J031,Walkway 031,"Newport, RI",Site access and staging are not verified,"Verify access, staging, and equipment path",Project Manager,Unassigned,2026-07-23,Open,Later,No,Yes
+Medium,J042,Paver Patio 042,"Quincy, MA",Permit or inspection status is pending,Resolve permit and inspection requirement,Operations Manager,Unassigned,2026-07-23,Open,Later,No,Yes
+Medium,J048,Paver Patio 048,"Quincy, MA",Materials are not confirmed,"Confirm selection, availability, and delivery",Estimator / Owner,Unassigned,2026-07-23,Open,Later,No,Yes
+Medium,J010,Paver Patio 010,"Quincy, MA",Materials are not confirmed,"Confirm selection, availability, and delivery",Estimator / Owner,Unassigned,2026-07-24,Open,Later,No,Yes
+Medium,J035,Paver Patio 035,"Providence, RI",Scope is not approved,Confirm approved scope before mobilization,Estimator / Owner,Unassigned,2026-07-24,Open,Later,No,Yes
+Medium,J041,Paver Patio 041,"Worcester, MA",Estimated margin is below target,"Review quote, scope, allowance, and cost assumptions",Estimator / Owner,Unassigned,2026-07-24,Open,Later,No,No
+Medium,J009,Paver Patio 009,"Framingham, MA",Crew is not assigned,Assign crew and required equipment,Operations Manager,Unassigned,2026-07-25,Open,Later,No,Yes
+Medium,J014,Paver Patio 014,"Pawtucket, RI",Permit or inspection status is pending,Resolve permit and inspection requirement,Operations Manager,Unassigned,2026-07-25,Open,Later,No,Yes
+Medium,J014,Paver Patio 014,"Pawtucket, RI",Crew is not assigned,Assign crew and required equipment,Operations Manager,Unassigned,2026-07-25,Open,Later,No,Yes
+Medium,J028,Paver Patio 028,"Quincy, MA",Materials are not confirmed,"Confirm selection, availability, and delivery",Estimator / Owner,Unassigned,2026-07-25,Open,Later,No,Yes
+Medium,J027,Paver Patio 027,"Boston, MA",Utility locate is pending,Confirm utility locate before excavation,Project Manager,Unassigned,2026-07-26,Open,Later,No,Yes
+Medium,J060,Paver Patio 060,"Braintree, MA",Utility locate is pending,Confirm utility locate before excavation,Project Manager,Unassigned,2026-07-26,Open,Later,No,Yes
+Medium,J060,Paver Patio 060,"Braintree, MA",Permit or inspection status is pending,Resolve permit and inspection requirement,Operations Manager,Unassigned,2026-07-26,Open,Later,No,Yes
+Medium,J060,Paver Patio 060,"Braintree, MA",Estimated margin is below target,"Review quote, scope, allowance, and cost assumptions",Estimator / Owner,Unassigned,2026-07-26,Open,Later,No,No
+Medium,J026,Paver Patio 026,"Quincy, MA",Scope is not approved,Confirm approved scope before mobilization,Estimator / Owner,Unassigned,2026-07-27,Open,Later,No,Yes
+Medium,J026,Paver Patio 026,"Quincy, MA",Utility locate is pending,Confirm utility locate before excavation,Project Manager,Unassigned,2026-07-27,Open,Later,No,Yes
+Medium,J026,Paver Patio 026,"Quincy, MA",Crew is not assigned,Assign crew and required equipment,Operations Manager,Unassigned,2026-07-27,Open,Later,No,Yes
+Medium,J026,Paver Patio 026,"Quincy, MA",Estimated margin is below target,"Review quote, scope, allowance, and cost assumptions",Estimator / Owner,Unassigned,2026-07-27,Open,Later,No,No
+Medium,J033,Walkway 033,"Warwick, RI",Permit or inspection status is pending,Resolve permit and inspection requirement,Operations Manager,Unassigned,2026-07-27,Open,Later,No,Yes
+Medium,J030,Paver Patio 030,"Quincy, MA",Utility locate is pending,Confirm utility locate before excavation,Project Manager,Unassigned,2026-07-28,Open,Later,No,Yes
+Medium,J030,Paver Patio 030,"Quincy, MA",Estimated margin is below target,"Review quote, scope, allowance, and cost assumptions",Estimator / Owner,Unassigned,2026-07-28,Open,Later,No,No
+Medium,J040,Paver Patio 040,"Braintree, MA",Utility locate is pending,Confirm utility locate before excavation,Project Manager,Unassigned,2026-07-28,Open,Later,No,Yes
+Medium,J040,Paver Patio 040,"Braintree, MA",Crew is not assigned,Assign crew and required equipment,Operations Manager,Unassigned,2026-07-28,Open,Later,No,Yes
+Medium,J040,Paver Patio 040,"Braintree, MA",Estimated margin is below target,"Review quote, scope, allowance, and cost assumptions",Estimator / Owner,Unassigned,2026-07-28,Open,Later,No,No
+Medium,J007,Paver Patio 007,"Boston, MA",Permit or inspection status is pending,Resolve permit and inspection requirement,Operations Manager,Unassigned,2026-07-29,Open,Later,No,Yes
+Medium,J034,Paver Patio 034,"Braintree, MA",Scope is not approved,Confirm approved scope before mobilization,Estimator / Owner,Unassigned,2026-07-29,Open,Later,No,Yes
+Medium,J034,Paver Patio 034,"Braintree, MA",Permit or inspection status is pending,Resolve permit and inspection requirement,Operations Manager,Unassigned,2026-07-29,Open,Later,No,Yes
+Medium,J003,Paver Patio 003,"Newton, MA",Materials are not confirmed,"Confirm selection, availability, and delivery",Estimator / Owner,Unassigned,2026-07-30,Open,Later,No,Yes
+Medium,J004,Paver Patio 004,"Warwick, RI",Permit or inspection status is pending,Resolve permit and inspection requirement,Operations Manager,Unassigned,2026-07-30,Open,Later,No,Yes
+Medium,J017,Walkway 017,"Worcester, MA",Utility locate is pending,Confirm utility locate before excavation,Project Manager,Unassigned,2026-07-30,Open,Later,No,Yes
+Medium,J017,Walkway 017,"Worcester, MA",Materials are not confirmed,"Confirm selection, availability, and delivery",Estimator / Owner,Unassigned,2026-07-30,Open,Later,No,Yes
+Medium,J015,Paver Patio 015,"Boston, MA",Scope is not approved,Confirm approved scope before mobilization,Estimator / Owner,Unassigned,2026-07-31,Open,Later,No,Yes
+Medium,J015,Paver Patio 015,"Boston, MA",Estimated margin is below target,"Review quote, scope, allowance, and cost assumptions",Estimator / Owner,Unassigned,2026-07-31,Open,Later,No,No
+Medium,J016,Paver Patio 016,"Quincy, MA",Utility locate is pending,Confirm utility locate before excavation,Project Manager,Unassigned,2026-07-31,Open,Later,No,Yes
+Medium,J016,Paver Patio 016,"Quincy, MA",Permit or inspection status is pending,Resolve permit and inspection requirement,Operations Manager,Unassigned,2026-07-31,Open,Later,No,Yes
+Medium,J055,Paver Patio 055,"Quincy, MA",Site access and staging are not verified,"Verify access, staging, and equipment path",Project Manager,Unassigned,2026-07-31,Open,Later,No,Yes
+Medium,J057,Paver Patio 057,"Pawtucket, RI",Scope is not approved,Confirm approved scope before mobilization,Estimator / Owner,Unassigned,2026-07-31,Open,Later,No,Yes
+Medium,J019,Walkway 019,"Cranston, RI",Crew is not assigned,Assign crew and required equipment,Operations Manager,Unassigned,2026-08-01,Open,Later,No,Yes
+Medium,J021,Paver Patio 021,"Newport, RI",Materials are not confirmed,"Confirm selection, availability, and delivery",Estimator / Owner,Unassigned,2026-08-01,Open,Later,No,Yes
+Medium,J021,Paver Patio 021,"Newport, RI",Estimated margin is below target,"Review quote, scope, allowance, and cost assumptions",Estimator / Owner,Unassigned,2026-08-01,Open,Later,No,No
+Medium,J023,Paver Patio 023,"Cranston, RI",Site access and staging are not verified,"Verify access, staging, and equipment path",Project Manager,Unassigned,2026-08-01,Open,Later,No,Yes
+Medium,J023,Paver Patio 023,"Cranston, RI",Utility locate is pending,Confirm utility locate before excavation,Project Manager,Unassigned,2026-08-01,Open,Later,No,Yes
+Medium,J023,Paver Patio 023,"Cranston, RI",Crew is not assigned,Assign crew and required equipment,Operations Manager,Unassigned,2026-08-01,Open,Later,No,Yes
+Medium,J036,Paver Patio 036,"Cranston, RI",Utility locate is pending,Confirm utility locate before excavation,Project Manager,Unassigned,2026-08-01,Open,Later,No,Yes
+Medium,J013,Walkway 013,"Boston, MA",Permit or inspection status is pending,Resolve permit and inspection requirement,Operations Manager,Unassigned,2026-08-02,Open,Later,No,Yes
+Medium,J013,Walkway 013,"Boston, MA",Materials are not confirmed,"Confirm selection, availability, and delivery",Estimator / Owner,Unassigned,2026-08-02,Open,Later,No,Yes
+Medium,J022,Paver Patio 022,"Weymouth, MA",Utility locate is pending,Confirm utility locate before excavation,Project Manager,Unassigned,2026-08-02,Open,Later,No,Yes
+Medium,J006,Paver Patio 006,"Boston, MA",Site access and staging are not verified,"Verify access, staging, and equipment path",Project Manager,Unassigned,2026-08-03,Open,Later,No,Yes
+Medium,J047,Paver Patio 047,"Newport, RI",Utility locate is pending,Confirm utility locate before excavation,Project Manager,Unassigned,2026-08-03,Open,Later,No,Yes
+Medium,J047,Paver Patio 047,"Newport, RI",Permit or inspection status is pending,Resolve permit and inspection requirement,Operations Manager,Unassigned,2026-08-03,Open,Later,No,Yes
+Medium,J047,Paver Patio 047,"Newport, RI",Crew is not assigned,Assign crew and required equipment,Operations Manager,Unassigned,2026-08-03,Open,Later,No,Yes
+Medium,J050,Paver Patio 050,"Cranston, RI",Site access and staging are not verified,"Verify access, staging, and equipment path",Project Manager,Unassigned,2026-08-03,Open,Later,No,Yes
+Medium,J050,Paver Patio 050,"Cranston, RI",Estimated margin is below target,"Review quote, scope, allowance, and cost assumptions",Estimator / Owner,Unassigned,2026-08-03,Open,Later,No,No
+Low,J005,Paver Patio 005,"Providence, RI",Medium slope may reduce productivity,Review grade and labor allowance in the field plan,Project Manager,Unassigned,2026-07-22,Open,Next 7 Days,No,No
+Low,J005,Paver Patio 005,"Providence, RI",Long material carry may affect labor,Review labor and staging plan,Foreman / Crew Lead,Unassigned,2026-07-22,Open,Next 7 Days,No,No
+Low,J038,Paver Patio 038,"Cranston, RI",Medium slope may reduce productivity,Review grade and labor allowance in the field plan,Project Manager,Unassigned,2026-07-22,Open,Next 7 Days,No,No
+Low,J038,Paver Patio 038,"Cranston, RI",Large job footprint needs production review,"Confirm crew, equipment, and duration assumptions",Operations Manager,Unassigned,2026-07-22,Open,Next 7 Days,No,No
+Low,J001,Walkway 001,"Pawtucket, RI",Demolition scope must be confirmed,"Confirm demolition, disposal, and haul-off scope",Estimator / Owner,Unassigned,2026-07-23,Open,Later,No,No
+Low,J031,Walkway 031,"Newport, RI",Narrow site access,Confirm equipment path and material staging,Foreman / Crew Lead,Unassigned,2026-07-23,Open,Later,No,No
+Low,J042,Paver Patio 042,"Quincy, MA",Demolition scope must be confirmed,"Confirm demolition, disposal, and haul-off scope",Estimator / Owner,Unassigned,2026-07-23,Open,Later,No,No
+Low,J042,Paver Patio 042,"Quincy, MA",Long material carry may affect labor,Review labor and staging plan,Foreman / Crew Lead,Unassigned,2026-07-23,Open,Later,No,No
+Low,J048,Paver Patio 048,"Quincy, MA",Demolition scope must be confirmed,"Confirm demolition, disposal, and haul-off scope",Estimator / Owner,Unassigned,2026-07-23,Open,Later,No,No
+Low,J010,Paver Patio 010,"Quincy, MA",Narrow site access,Confirm equipment path and material staging,Foreman / Crew Lead,Unassigned,2026-07-24,Open,Later,No,No
+Low,J010,Paver Patio 010,"Quincy, MA",Medium slope may reduce productivity,Review grade and labor allowance in the field plan,Project Manager,Unassigned,2026-07-24,Open,Later,No,No
+Low,J010,Paver Patio 010,"Quincy, MA",Demolition scope must be confirmed,"Confirm demolition, disposal, and haul-off scope",Estimator / Owner,Unassigned,2026-07-24,Open,Later,No,No
+Low,J010,Paver Patio 010,"Quincy, MA",Long material carry may affect labor,Review labor and staging plan,Foreman / Crew Lead,Unassigned,2026-07-24,Open,Later,No,No
+Low,J035,Paver Patio 035,"Providence, RI",Large job footprint needs production review,"Confirm crew, equipment, and duration assumptions",Operations Manager,Unassigned,2026-07-24,Open,Later,No,No
+Low,J041,Paver Patio 041,"Worcester, MA",Narrow site access,Confirm equipment path and material staging,Foreman / Crew Lead,Unassigned,2026-07-24,Open,Later,No,No
+Low,J009,Paver Patio 009,"Framingham, MA",Demolition scope must be confirmed,"Confirm demolition, disposal, and haul-off scope",Estimator / Owner,Unassigned,2026-07-25,Open,Later,No,No
+Low,J014,Paver Patio 014,"Pawtucket, RI",Demolition scope must be confirmed,"Confirm demolition, disposal, and haul-off scope",Estimator / Owner,Unassigned,2026-07-25,Open,Later,No,No
+Low,J014,Paver Patio 014,"Pawtucket, RI",Large job footprint needs production review,"Confirm crew, equipment, and duration assumptions",Operations Manager,Unassigned,2026-07-25,Open,Later,No,No
+Low,J028,Paver Patio 028,"Quincy, MA",Medium slope may reduce productivity,Review grade and labor allowance in the field plan,Project Manager,Unassigned,2026-07-25,Open,Later,No,No
+Low,J027,Paver Patio 027,"Boston, MA",Narrow site access,Confirm equipment path and material staging,Foreman / Crew Lead,Unassigned,2026-07-26,Open,Later,No,No
+Low,J044,Paver Patio 044,"Quincy, MA",Narrow site access,Confirm equipment path and material staging,Foreman / Crew Lead,Unassigned,2026-07-26,Open,Later,No,No
+Low,J044,Paver Patio 044,"Quincy, MA",Medium slope may reduce productivity,Review grade and labor allowance in the field plan,Project Manager,Unassigned,2026-07-26,Open,Later,No,No
+Low,J044,Paver Patio 044,"Quincy, MA",Large job footprint needs production review,"Confirm crew, equipment, and duration assumptions",Operations Manager,Unassigned,2026-07-26,Open,Later,No,No
+Low,J060,Paver Patio 060,"Braintree, MA",Medium slope may reduce productivity,Review grade and labor allowance in the field plan,Project Manager,Unassigned,2026-07-26,Open,Later,No,No
+Low,J026,Paver Patio 026,"Quincy, MA",Large job footprint needs production review,"Confirm crew, equipment, and duration assumptions",Operations Manager,Unassigned,2026-07-27,Open,Later,No,No
+Low,J033,Walkway 033,"Warwick, RI",Long material carry may affect labor,Review labor and staging plan,Foreman / Crew Lead,Unassigned,2026-07-27,Open,Later,No,No
+Low,J058,Walkway 058,"Pawtucket, RI",Medium slope may reduce productivity,Review grade and labor allowance in the field plan,Project Manager,Unassigned,2026-07-27,Open,Later,No,No
+Low,J012,Walkway 012,"Quincy, MA",Demolition scope must be confirmed,"Confirm demolition, disposal, and haul-off scope",Estimator / Owner,Unassigned,2026-07-28,Open,Later,No,No
+Low,J040,Paver Patio 040,"Braintree, MA",Medium slope may reduce productivity,Review grade and labor allowance in the field plan,Project Manager,Unassigned,2026-07-28,Open,Later,No,No
+Low,J040,Paver Patio 040,"Braintree, MA",Long material carry may affect labor,Review labor and staging plan,Foreman / Crew Lead,Unassigned,2026-07-28,Open,Later,No,No
+Low,J040,Paver Patio 040,"Braintree, MA",Large job footprint needs production review,"Confirm crew, equipment, and duration assumptions",Operations Manager,Unassigned,2026-07-28,Open,Later,No,No
+Low,J007,Paver Patio 007,"Boston, MA",Narrow site access,Confirm equipment path and material staging,Foreman / Crew Lead,Unassigned,2026-07-29,Open,Later,No,No
+Low,J007,Paver Patio 007,"Boston, MA",Medium slope may reduce productivity,Review grade and labor allowance in the field plan,Project Manager,Unassigned,2026-07-29,Open,Later,No,No
+Low,J007,Paver Patio 007,"Boston, MA",Long material carry may affect labor,Review labor and staging plan,Foreman / Crew Lead,Unassigned,2026-07-29,Open,Later,No,No
+Low,J007,Paver Patio 007,"Boston, MA",Large job footprint needs production review,"Confirm crew, equipment, and duration assumptions",Operations Manager,Unassigned,2026-07-29,Open,Later,No,No
+Low,J034,Paver Patio 034,"Braintree, MA",Medium slope may reduce productivity,Review grade and labor allowance in the field plan,Project Manager,Unassigned,2026-07-29,Open,Later,No,No
+Low,J034,Paver Patio 034,"Braintree, MA",Long material carry may affect labor,Review labor and staging plan,Foreman / Crew Lead,Unassigned,2026-07-29,Open,Later,No,No
+Low,J003,Paver Patio 003,"Newton, MA",Medium slope may reduce productivity,Review grade and labor allowance in the field plan,Project Manager,Unassigned,2026-07-30,Open,Later,No,No
+Low,J003,Paver Patio 003,"Newton, MA",Long material carry may affect labor,Review labor and staging plan,Foreman / Crew Lead,Unassigned,2026-07-30,Open,Later,No,No
+Low,J004,Paver Patio 004,"Warwick, RI",Large job footprint needs production review,"Confirm crew, equipment, and duration assumptions",Operations Manager,Unassigned,2026-07-30,Open,Later,No,No
+Low,J015,Paver Patio 015,"Boston, MA",Demolition scope must be confirmed,"Confirm demolition, disposal, and haul-off scope",Estimator / Owner,Unassigned,2026-07-31,Open,Later,No,No
+Low,J016,Paver Patio 016,"Quincy, MA",Narrow site access,Confirm equipment path and material staging,Foreman / Crew Lead,Unassigned,2026-07-31,Open,Later,No,No
+Low,J052,Paver Patio 052,"Quincy, MA",Narrow site access,Confirm equipment path and material staging,Foreman / Crew Lead,Unassigned,2026-07-31,Open,Later,No,No
+Low,J052,Paver Patio 052,"Quincy, MA",Demolition scope must be confirmed,"Confirm demolition, disposal, and haul-off scope",Estimator / Owner,Unassigned,2026-07-31,Open,Later,No,No
+Low,J055,Paver Patio 055,"Quincy, MA",Large job footprint needs production review,"Confirm crew, equipment, and duration assumptions",Operations Manager,Unassigned,2026-07-31,Open,Later,No,No
+Low,J057,Paver Patio 057,"Pawtucket, RI",Narrow site access,Confirm equipment path and material staging,Foreman / Crew Lead,Unassigned,2026-07-31,Open,Later,No,No
+Low,J019,Walkway 019,"Cranston, RI",Long material carry may affect labor,Review labor and staging plan,Foreman / Crew Lead,Unassigned,2026-08-01,Open,Later,No,No
+Low,J021,Paver Patio 021,"Newport, RI",Demolition scope must be confirmed,"Confirm demolition, disposal, and haul-off scope",Estimator / Owner,Unassigned,2026-08-01,Open,Later,No,No
+Low,J036,Paver Patio 036,"Cranston, RI",Large job footprint needs production review,"Confirm crew, equipment, and duration assumptions",Operations Manager,Unassigned,2026-08-01,Open,Later,No,No
+Low,J013,Walkway 013,"Boston, MA",Demolition scope must be confirmed,"Confirm demolition, disposal, and haul-off scope",Estimator / Owner,Unassigned,2026-08-02,Open,Later,No,No
+Low,J022,Paver Patio 022,"Weymouth, MA",Narrow site access,Confirm equipment path and material staging,Foreman / Crew Lead,Unassigned,2026-08-02,Open,Later,No,No
+Low,J006,Paver Patio 006,"Boston, MA",Narrow site access,Confirm equipment path and material staging,Foreman / Crew Lead,Unassigned,2026-08-03,Open,Later,No,No
+Low,J006,Paver Patio 006,"Boston, MA",Medium slope may reduce productivity,Review grade and labor allowance in the field plan,Project Manager,Unassigned,2026-08-03,Open,Later,No,No
+Low,J006,Paver Patio 006,"Boston, MA",Demolition scope must be confirmed,"Confirm demolition, disposal, and haul-off scope",Estimator / Owner,Unassigned,2026-08-03,Open,Later,No,No
+Low,J047,Paver Patio 047,"Newport, RI",Medium slope may reduce productivity,Review grade and labor allowance in the field plan,Project Manager,Unassigned,2026-08-03,Open,Later,No,No
+Low,J050,Paver Patio 050,"Cranston, RI",Narrow site access,Confirm equipment path and material staging,Foreman / Crew Lead,Unassigned,2026-08-03,Open,Later,No,No
+Low,J050,Paver Patio 050,"Cranston, RI",Demolition scope must be confirmed,"Confirm demolition, disposal, and haul-off scope",Estimator / Owner,Unassigned,2026-08-03,Open,Later,No,No

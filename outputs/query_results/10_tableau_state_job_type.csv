@@ -1,0 +1,5 @@
+state,job_type,job_count,avg_quoted_price,avg_estimated_total_cost,avg_estimated_margin,avg_site_risk_points
+MA,Paver Patio,33,12386.02,8436.74,0.305,34.48
+MA,Walkway,6,5999.78,3736.58,0.365,28.33
+RI,Paver Patio,12,13112.95,8569.17,0.327,37.17
+RI,Walkway,9,6710.56,4282.6,0.353,31.22

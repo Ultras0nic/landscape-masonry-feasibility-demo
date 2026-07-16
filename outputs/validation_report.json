@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "job_count": 60,
+  "open_action_count": 225,
+  "jobs_with_open_actions": 60,
+  "below_target_margin_jobs": 14,
+  "review_status_counts": {
+    "No Additional Review Flagged": 50,
+    "Review Before Approval": 9,
+    "Site Review Required": 1
+  },
+  "priority_counts": {
+    "High": 86,
+    "Medium": 82,
+    "Low": 57
+  },
+  "blocking_action_count": 77,
+  "current_lookahead_action_count": 83,
+  "risk_model_version": "rules-v2-illustrative",
+  "assumption_version": "2026-07-demo-v2",
+  "note": "Synthetic scenario coverage and data-contract checks; not model validation."
+}
